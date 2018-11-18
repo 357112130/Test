@@ -8,8 +8,9 @@
 
 import pymysql as db
 import sys
-import traceback
+import traceback  # 回滚
 
+# 数据库配置
 config = {
 	"host": "127.0.0.1",  # localhost本地地址
 	"port": 3306,  # 端口号
@@ -20,40 +21,41 @@ config = {
 	"cursorclass": db.cursors.DictCursor  # 自定义光标类使用
 }
 
-# 连接数据库
 try:
+	# 连接数据库
 	conn = db.connect(**config)
 	conn.autocommit(1)
 	cursor = conn.cursor()
 except IOError, e:
+	# 打印error log
 	print "Error %d: %s" % (e.args[0], e.args[1])
 	sys.exit(1)
 
-# 创建数据库
 try:
+	# 创建数据库
 	DB_NAME = "test"
-	cursor.execute("DROP DATABASE IF EXISTS %s" % DB_NAME)
-	cursor.execute("CREATE DATABASE IF NOT EXISTS %s" % DB_NAME)
+	cursor.execute("drop database if exists %s" % DB_NAME)
+	cursor.execute("create database if not exists %s" % DB_NAME)
 	conn.select_db(DB_NAME)
 
 	# 创建表
 	TABLE_NAME = "user"
-	TABLE_NAME1 = "user1"
-	cursor.execute("CREATE TABLE %s(id int primary key,name varchar(30))" % TABLE_NAME)
-	cursor.execute("CREATE TABLE %s(id int primary key,name varchar(30))" % TABLE_NAME1)
+	cursor.execute("create table %s(id int primary key,name varchar(30))" % TABLE_NAME)
 
 	# 删除表
-	cursor.execute("DROP TABLE %s" % TABLE_NAME1)
+	if DB_NAME == 1:
+		cursor.execute("drop table %s" % TABLE_NAME)
+	pass
 
-	# 批量插入纪录
+	# 批量插入数据
 	values = []
-	for i in range(10):
+	for i in range(21):
 		values.append((i, "n" + str(i)))
-	cursor.executemany("INSERT INTO user values(%s,%s)", values)
+	cursor.executemany("insert into user values(%s,%s)", values)
 
-	# 查询数据条目
-	count = cursor.execute("SELECT * FROM %s" % TABLE_NAME)
-	print "total records:", cursor.rowcount
+	# 查询表数据条目
+	count = cursor.execute("select * from %s" % TABLE_NAME)
+	print "total records:(总记录)", cursor.rowcount
 
 	# 获取表名信息
 	desc = cursor.description
@@ -65,10 +67,11 @@ try:
 		print result
 
 except IOError, e:
+	# 打印error log
 	print "Error %d: %s" % (e.args[0], e.args[1])
 	sys.exit(1)
 	traceback.print_exc()
-	# 发生错误时会滚
+	# 发生错误时回滚
 	conn.rollback()
 finally:
 	# 关闭游标连接
