@@ -12,30 +12,31 @@ driver = webdriver.Chrome()
 
 
 class LoginPage:
-    # 定义变量
-    def defining_variable(self):
-        variable = {
-            "${URL}": "https://mail.126.com/",
-            "${USERNAME}": "idInput",
-            "${PASSWORD}": "pwdInput",
-            "${LOGIN_BTN}": "loginBtn"
-        }
+	# 定义变量
+	def defining_variable(self):
+		variable = {
+			"${URL}": "https://mail.126.com/",
+			"${USERNAME}": "idInput",
+			"${PASSWORD}": "pwdInput",
+			"${LOGIN_BTN}": "loginBtn"
+		}
 
-    # 获取用户名输入框
-    def login_UserName(self):
-        element = driver.find_element_by_id("${USERNAME}")
+	# 获取用户名输入框
+	def login_UserName(self):
+		element = driver.find_element_by_id("${USERNAME}")
 
-    # 获取密码输入框
-    def login_Password(self):
-        element = driver.find_element_by_id("${PASSWORD}")
+	# 获取密码输入框
+	def login_Password(self):
+		element = driver.find_element_by_id("${PASSWORD}")
 
-    # 获取登录按钮
-    def login_Button(self):
-        elemnet = driver.find_element_by_id("${LOGIN_BTN}")
+	# 获取登录按钮
+	def login_Button(self):
+		elemnet = driver.find_element_by_id("${LOGIN_BTN}")
 
-    def open(self):
-        driver.get("${URL}")
+	def open(self):
+		driver.get("${URL}")
+		driver.maximize_window()
 
 
 if __name__ == '__main__':
-    LoginPage.open()
+	LoginPage.open()
