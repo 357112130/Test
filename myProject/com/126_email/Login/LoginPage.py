@@ -34,9 +34,13 @@ class LoginPage:
 		elemnet = driver.find_element_by_id("${LOGIN_BTN}")
 
 	def open(self):
-		driver.get("${URL}")
+		driver.get("https://mail.126.com/")
 		driver.maximize_window()
+
+	def run(self):
+		self.open()
 
 
 if __name__ == '__main__':
-	LoginPage.open()
+	test = LoginPage()
+	test.run()
