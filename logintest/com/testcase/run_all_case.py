@@ -10,6 +10,7 @@ import os
 import HtmlTestRunner
 from send_email import main2
 
+
 # 待执行用例的目录
 def allcase():
 	case_dir = r"D:\pyProject\logintest\com\testcase"
@@ -29,10 +30,9 @@ def allcase():
 if __name__ == "__main__":
 	# runner=unittest.TextTestRunner()
 	# runner.run(allcase())
-	report_path = "F:\\result.html"
+	report_path = "D://pyProject//logintest//com//testcase//result.html"
 	fp = open(report_path, "wb")
 	runner = HtmlTestRunner.HTMLTestRunner(stream=fp, title="自动化测试unittest测试框架报告", description="用例执行情况：")
-
 	runner.run(allcase())
 	fp.close()
-	# main2()  #from send_email import main2  发送邮件！
+# main2()  #from send_email import main2  发送邮件！
