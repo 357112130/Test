@@ -24,15 +24,15 @@ def sendEmail(content, title, from_name, from_address, to_address, serverport, s
 		# 这里的to_address是真正需要发送的到的mail邮箱地址需要的是一个list
 		s.sendmail(from_address, to_address, msg.as_string())
 		print('%s----发送邮件成功' % time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-	except Exception as err:
+	except Exception as error:
 		print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-		print(err)
+		print(error)
 
 
 # HEFEN_D = pth.abspath(pth.dirname(__file__))
 
-def main2():
-	TO = ['357112130@qq.com']
+def main():
+	TO = ['2214571423@qq.com']
 	config = {
 		"from": "69xxxxxxxx2@qq.com",
 		"from_name": '自动化测试unittest测试框架报告:',
@@ -40,7 +40,7 @@ def main2():
 		"serverip": "smtp.qq.com",
 		"serverport": "465",
 		"username": "357112130qq.com",
-		"password": "xxxxxxxxxxxx"  # QQ邮箱的SMTP授权码
+		"password": "aptx_48691"  # QQ邮箱的SMTP授权码
 	}
 	title = "自动化测试unittest测试框架报告"
 	try:
@@ -50,7 +50,6 @@ def main2():
 	mail_body = f.read()
 	f.close()
 	sendEmail(mail_body, title, config['from_name'], config['from'], config['to'], config['serverport'],
-			  config['serverip'],
-			  config['username'], config['password'])
+			  config['serverip'], config['username'], config['password'])
 
-# main2()
+# main()

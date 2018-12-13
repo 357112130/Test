@@ -8,12 +8,12 @@
 import unittest
 import os
 import HtmlTestRunner
-from send_email import main2
+from send_email import main
 
 
 # 待执行用例的目录
 def allcase():
-	case_dir = r"D:\pyProject\logintest\com\testcase"
+	case_dir = r"D://pyProject//logintest//com//testcase"
 	# case_path=os.path.join(os.getcwd(),"case")
 	testcase = unittest.TestSuite()
 	discover = unittest.defaultTestLoader.discover(case_dir, pattern="test*.py", top_level_dir=None)
