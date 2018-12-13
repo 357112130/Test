@@ -43,7 +43,10 @@ def main2():
 		"password": "xxxxxxxxxxxx"  # QQ邮箱的SMTP授权码
 	}
 	title = "自动化测试unittest测试框架报告"
-	f = open("D://pyProject//logintest//com//testcase//result.html", 'rb')
+	try:
+		f = open("D://pyProject//logintest//com//testcase//result.html", 'rb')
+	except IOError:
+		pass
 	mail_body = f.read()
 	f.close()
 	sendEmail(mail_body, title, config['from_name'], config['from'], config['to'], config['serverport'],
