@@ -36,14 +36,14 @@ class Test(unittest.TestCase):
 		self.driver.find_element_by_id("login_button").click()
 
 	def test_login_sucess(self):
-		'''用户名和密码正确'''
+		# 用户名和密码正确
 		self.login("357112130@qq.com", "aptx_48691")  # 正确的用户名和密码
 		time.sleep(10)
 		link = self.driver.find_element_by_id("useralias")
 		self.assertTrue("凌辰" in link.text)  # 断言用户登录成功验证是否存在
 
 	def test_login_username_error(self):
-		'''用户名错误,密码正确'''
+		# 用户名错误,密码正确
 		self.login("357112130", "aptx_48691")  # 错误的用户名
 		time.sleep(10)
 		error_message = self.driver.find_element_by_id("").text
@@ -51,7 +51,7 @@ class Test(unittest.TestCase):
 		self.driver.get_screenshot_as_file("D://pyProject//logintest//com//testcase//login_username_error.jpg")  # 截图
 
 	def test_login_password_error(self):
-		'''用户名正确,密码错误'''
+		# 用户名正确,密码错误
 		self.login("357112130@qq.com", "aptx_4869")  # 错误的密码
 		time.sleep(10)
 		error_message = self.driver.find_element_by_id("").text
@@ -59,7 +59,7 @@ class Test(unittest.TestCase):
 		self.driver.get_screenshot_as_file("D://pyProject//logintest//com//testcase//login_password_error.jpg")  # 截图
 
 	def test_login_username_null(self):
-		'''用户名为空,密码正确'''
+		# 用户名为空,密码正确
 		self.login("357112130@qq.com", "")  # 用户名为空
 		time.sleep(10)
 		error_message = self.driver.find_element_by_id("").text
@@ -67,7 +67,7 @@ class Test(unittest.TestCase):
 		self.driver.get_screenshot_as_file("D://pyProject//logintest//com//testcase//login_username_null.jpg")  # 截图
 
 	def test_login_password_null(self):
-		'''用户名正确,密码为空'''
+		# 用户名正确,密码为空
 		self.login("357112130@qq.com", "")  # 密码为空
 		time.sleep(10)
 		error_message = self.driver.find_element_by_id("").text
