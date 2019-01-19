@@ -10,11 +10,12 @@ import selenium
 import time
 from appium import webdriver
 
+
 class MyTestCase(unittest.TestCase):
 
 	@classmethod
 	def setUp(self):
-		print('selenium version = ',selenium.__version__)
+		print('selenium version = ', selenium.__version__)
 		desired_caps = {}
 		desired_caps['platformName'] = 'Android'
 		desired_caps['platformVersion'] = '4.4'
