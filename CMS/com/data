@@ -1,0 +1,4 @@
+前端地址：http://localhost
+后台地址：http://localhost/e/admin(登录用户名、密码与认证码均为admin)
+注册普通会员：用户名test 密码123456
+phpMyadmin地址：http://localhost/phpmyadmin(mysql 用户名为root，密码为空)
