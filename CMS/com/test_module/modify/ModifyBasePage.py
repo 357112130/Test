@@ -7,6 +7,7 @@
 # @modified By:
 from selenium import webdriver
 from time import sleep
+from CMS.com.test_module.common.CommonBasepage import CommonBasePage
 from CMS.com.test_module.login.LoginBasePage import LoginBasePage
 
 
@@ -54,8 +55,7 @@ class ModifyBasePage():
 
 if __name__ == '__main__':
 	driver = webdriver.Chrome()
-	driver.get("http://localhost")
-	driver.maximize_window()
+	CommonBasePage().common(driver)
 	LoginBasePage().user_login(driver, "test", "123456")
 	sleep(1)
 	driver.find_element_by_link_text(u"普通会员").click()

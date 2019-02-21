@@ -7,6 +7,7 @@
 # @modified By:
 from selenium import webdriver
 from time import sleep
+from CMS.com.test_module.common.CommonBasepage import CommonBasePage
 
 
 class LoginBasePage():
@@ -30,7 +31,7 @@ class LoginBasePage():
 
 if __name__ == '__main__':
 	driver = webdriver.Chrome()
-	driver.get("http://localhost")
+	CommonBasePage().common(driver)
 
 	LoginBasePage().user_login(driver, "test", "123456")
 	LoginBasePage().user_logout(driver)

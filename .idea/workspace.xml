@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="新增ShoppingBasePage">
+    <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="优化ShoppingBasePage">
+      <change afterPath="$PROJECT_DIR$/CMS/com/test_module/common/CommonBasepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMS/com/test_module/common/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMS/com/test_module/login/LoginBasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMS/com/test_module/login/LoginBasePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMS/com/test_module/modify/ModifyBasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMS/com/test_module/modify/ModifyBasePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMS/com/test_module/register/RegisterBasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMS/com/test_module/register/RegisterBasePage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMS/com/test_module/shopping/ShoppingBasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMS/com/test_module/shopping/ShoppingBasePage.py" afterDir="false" />
     </list>
     <ignored path="pyProject.iws" />
@@ -31,7 +36,7 @@
     <SUITE FILE_PATH="coverage/pyProject$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1544709266211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logintest/com/testcase" />
     <SUITE FILE_PATH="coverage/pyProject$test.coverage" NAME="test Coverage Results" MODIFIED="1548766306610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/register" />
     <SUITE FILE_PATH="coverage/pyProject$RegisterBasePage.coverage" NAME="RegisterBasePage Coverage Results" MODIFIED="1549880788533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/register" />
-    <SUITE FILE_PATH="coverage/pyProject$ShoppingBasePage.coverage" NAME="ShoppingBasePage Coverage Results" MODIFIED="1550750731653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/shopping" />
+    <SUITE FILE_PATH="coverage/pyProject$ShoppingBasePage.coverage" NAME="ShoppingBasePage Coverage Results" MODIFIED="1550753609486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/shopping" />
     <SUITE FILE_PATH="coverage/pyProject$Unittests_in_logintest.coverage" NAME="Unittests in logintest Coverage Results" MODIFIED="1544709157631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logintest" />
     <SUITE FILE_PATH="coverage/pyProject$user_login.coverage" NAME="user_login Coverage Results" MODIFIED="1548593034554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/login" />
     <SUITE FILE_PATH="coverage/pyProject$LoginBasePage.coverage" NAME="LoginBasePage Coverage Results" MODIFIED="1550236837696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/login" />
@@ -101,7 +106,7 @@
           <entry key="data" value="4" />
           <entry key="django_migrations" value="1" />
           <entry key="html" value="3" />
-          <entry key="py" value="181" />
+          <entry key="py" value="182" />
           <entry key="sqlite_master" value="1" />
           <entry key="sqlite_sequence" value="1" />
           <entry key="ts" value="1" />
@@ -113,7 +118,7 @@
           <entry key="Database Element" value="3" />
           <entry key="HTML" value="3" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="181" />
+          <entry key="Python" value="182" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -122,14 +127,14 @@
         <counts>
           <entry key="data" value="48" />
           <entry key="dummy" value="28" />
-          <entry key="py" value="6865" />
-          <entry key="txt" value="281" />
+          <entry key="py" value="7120" />
+          <entry key="txt" value="287" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="357" />
-          <entry key="Python" value="6863" />
+          <entry key="PLAIN_TEXT" value="363" />
+          <entry key="Python" value="7118" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
@@ -145,11 +150,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMS/com/test_module/common/CommonBasepage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="n#!!doc" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMS/com/test_module/shopping/ShoppingBasePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="60" column="82" selection-start-line="60" selection-start-column="82" selection-end-line="60" selection-end-column="82" />
+            <state relative-caret-position="1539">
+              <caret line="63" column="62" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
               <folding>
                 <element signature="n#!!doc" />
               </folding>
@@ -160,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMS/com/test_module/modify/ModifyBasePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
-              <caret line="33" column="69" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="69" />
+            <state relative-caret-position="341">
+              <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" />
               </folding>
@@ -172,8 +189,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMS/com/test_module/register/RegisterBasePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+            <state relative-caret-position="243">
+              <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" />
               </folding>
@@ -181,11 +198,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMS/com/test_module/login/LoginBasePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="314">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" />
               </folding>
@@ -209,7 +226,7 @@
         <entry file="file://$PROJECT_DIR$/CMS/com/data">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="21" selection-start-column="5" selection-end-column="21" />
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -286,10 +303,11 @@
         <option value="$PROJECT_DIR$/CMS/com/test_module/login/user_login.py" />
         <option value="$PROJECT_DIR$/27/test27.py" />
         <option value="$PROJECT_DIR$/CMS/com/test_module/register/test.py" />
+        <option value="$PROJECT_DIR$/CMS/com/test_module/common/CommonBasepage.py" />
+        <option value="$PROJECT_DIR$/CMS/com/test_module/shopping/ShoppingBasePage.py" />
+        <option value="$PROJECT_DIR$/CMS/com/test_module/modify/ModifyBasePage.py" />
         <option value="$PROJECT_DIR$/CMS/com/test_module/register/RegisterBasePage.py" />
         <option value="$PROJECT_DIR$/CMS/com/test_module/login/LoginBasePage.py" />
-        <option value="$PROJECT_DIR$/CMS/com/test_module/modify/ModifyBasePage.py" />
-        <option value="$PROJECT_DIR$/CMS/com/test_module/shopping/ShoppingBasePage.py" />
       </list>
     </option>
   </component>
@@ -350,6 +368,14 @@
               <item name="CMS" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="test_module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test_module" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
@@ -704,7 +730,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550750818123</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="优化ShoppingBasePage">
+      <created>1550751810618</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1550751810618</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -752,13 +785,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19083156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19083156" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49626866" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.68976545" visible="true" weight="0.29319954" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.68976545" visible="true" weight="0.29319954" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4914712" weight="0.32552955" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -845,7 +878,8 @@
     <MESSAGE value="新增修改信息用例" />
     <MESSAGE value="优化ModifyBasePage" />
     <MESSAGE value="新增ShoppingBasePage" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增ShoppingBasePage" />
+    <MESSAGE value="优化ShoppingBasePage" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化ShoppingBasePage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -896,7 +930,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://12317af0-d4af-48d1-aee1-8740397f1604/schema/main/table/django_migrations" />
     <entry file="file://$PROJECT_DIR$/logintest/com/testcase/run_all_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
@@ -1166,13 +1199,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMS/com/test_module/login/LoginBasePage.py">
+    <entry file="file://D:/Python27/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" />
-          </folding>
+        <state relative-caret-position="293">
+          <caret line="712" selection-start-line="712" selection-end-line="712" />
         </state>
       </provider>
     </entry>
@@ -1189,14 +1219,24 @@
     <entry file="file://$PROJECT_DIR$/CMS/com/data">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="21" selection-start-column="5" selection-end-column="21" />
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMS/com/test_module/register/RegisterBasePage.py">
+    <entry file="file://$PROJECT_DIR$/CMS/com/test_module/common/CommonBasepage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+        <state relative-caret-position="162">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMS/com/test_module/shopping/ShoppingBasePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="63" column="62" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
           <folding>
             <element signature="n#!!doc" />
           </folding>
@@ -1205,25 +1245,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMS/com/test_module/modify/ModifyBasePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="33" column="69" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="69" />
+        <state relative-caret-position="341">
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python27/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+    <entry file="file://$PROJECT_DIR$/CMS/com/test_module/register/RegisterBasePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="712" selection-start-line="712" selection-end-line="712" />
+        <state relative-caret-position="243">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMS/com/test_module/shopping/ShoppingBasePage.py">
+    <entry file="file://$PROJECT_DIR$/CMS/com/test_module/login/LoginBasePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="60" column="82" selection-start-line="60" selection-start-column="82" selection-end-line="60" selection-end-column="82" />
+        <state relative-caret-position="314">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" />
           </folding>

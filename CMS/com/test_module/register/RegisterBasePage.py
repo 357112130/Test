@@ -7,6 +7,7 @@
 # @modified By:
 from selenium import webdriver
 from time import sleep
+from CMS.com.test_module.common.CommonBasepage import CommonBasePage
 
 
 class RegisterBasePage():
@@ -43,8 +44,7 @@ class RegisterBasePage():
 
 if __name__ == '__main__':
 	driver = webdriver.Chrome()
-	driver.get("http://localhost")
-	driver.maximize_window()
+	CommonBasePage().common(driver)
 
 	# 获取当前窗口句柄
 	currentWindow = driver.current_window_handle

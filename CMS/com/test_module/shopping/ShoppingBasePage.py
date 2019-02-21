@@ -7,6 +7,7 @@
 # @modified By:
 from selenium import webdriver
 from time import sleep
+from CMS.com.test_module.common.CommonBasepage import CommonBasePage
 from CMS.com.test_module.login.LoginBasePage import LoginBasePage
 
 
@@ -54,11 +55,13 @@ class ShoppingBasePage():
 
 if __name__ == '__main__':
 	driver = webdriver.Chrome()
-	driver.get("http://localhost")
-	driver.maximize_window()
+	CommonBasePage().common(driver)
 	LoginBasePage().user_login(driver, "test", "123456")
 	sleep(2)
 	ShoppingBasePage().buy_computers(driver, u"华硕笔记本A8H233sc-DR(90NNKXAI131815AN", u"凌辰", "6685617", "here")
 
 	driver.implicitly_wait(3)
-	driver.quit()
+	alipay = driver.find_element_by_id("QuickLinksMore1").text
+	if alipay == u"哇！支付宝":
+		sleep(2)
+		driver.quit()
