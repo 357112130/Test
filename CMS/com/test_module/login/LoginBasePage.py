@@ -7,7 +7,7 @@
 # @modified By:
 from selenium import webdriver
 from time import sleep
-from CMS.com.test_module.common.CommonBasepage import CommonBasePage
+from CMS.com.test_module.common.CommonBasePage import CommonBasePage
 
 
 class LoginBasePage():

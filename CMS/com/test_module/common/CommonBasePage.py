@@ -3,7 +3,7 @@
 # @author: ycg
 # @description: 
 # @date: create in 2019/2/21 20:24
-# @file：CommonBasepage.py
+# @file：CommonBasePage.py
 # @modified By:
 from selenium import webdriver
 from time import sleep
