@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="优化ModifyBasePage">
-      <change afterPath="$PROJECT_DIR$/CMS/com/test_module/shopping/ShoppingBasePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMS/com/test_module/shopping/__init__.py" afterDir="false" />
+    <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="新增ShoppingBasePage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMS/com/test_module/shopping/ShoppingBasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMS/com/test_module/shopping/ShoppingBasePage.py" afterDir="false" />
     </list>
     <ignored path="pyProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,14 +122,14 @@
         <counts>
           <entry key="data" value="48" />
           <entry key="dummy" value="28" />
-          <entry key="py" value="6844" />
-          <entry key="txt" value="259" />
+          <entry key="py" value="6865" />
+          <entry key="txt" value="281" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="335" />
-          <entry key="Python" value="6842" />
+          <entry key="PLAIN_TEXT" value="357" />
+          <entry key="Python" value="6863" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
@@ -149,20 +148,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMS/com/test_module/shopping/ShoppingBasePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            <state relative-caret-position="324">
+              <caret line="60" column="82" selection-start-line="60" selection-start-column="82" selection-end-line="60" selection-end-column="82" />
               <folding>
                 <element signature="n#!!doc" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python27/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="712" selection-start-line="712" selection-end-line="712" />
             </state>
           </provider>
         </entry>
@@ -360,30 +350,6 @@
               <item name="CMS" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="test_module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="CMS" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test_module" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="CMS" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test_module" type="462c0819:PsiDirectoryNode" />
-              <item name="modify" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="CMS" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test_module" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
@@ -731,7 +697,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550238398488</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="新增ShoppingBasePage">
+      <created>1550750818123</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1550750818123</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -779,13 +752,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19083156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19083156" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49626866" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.68976545" visible="true" weight="0.29319954" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.68976545" visible="true" weight="0.29319954" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4914712" weight="0.32552955" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -871,7 +844,8 @@
     <MESSAGE value="CMS_Test项目" />
     <MESSAGE value="新增修改信息用例" />
     <MESSAGE value="优化ModifyBasePage" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化ModifyBasePage" />
+    <MESSAGE value="新增ShoppingBasePage" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增ShoppingBasePage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1248,8 +1222,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMS/com/test_module/shopping/ShoppingBasePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        <state relative-caret-position="324">
+          <caret line="60" column="82" selection-start-line="60" selection-start-column="82" selection-end-line="60" selection-end-column="82" />
           <folding>
             <element signature="n#!!doc" />
           </folding>

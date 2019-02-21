@@ -13,11 +13,11 @@ from CMS.com.test_module.login.LoginBasePage import LoginBasePage
 class ShoppingBasePage():
 
 	# 购买电脑
-	def buy_computers(self, driver, truename, mycall, family_address):
+	def buy_computers(self, driver, computer_name, truename, mycall, family_address):
 		driver.find_element_by_id("tabnav_btn_4").click()
 		sleep(1)
 		# 点击该电脑链接进入详情
-		driver.find_element_by_link_text(u"华硕笔记本A8H233sc-DR(90NNKXAI131815AN").click()
+		driver.find_element_by_link_text(computer_name).click()
 		# 打印该电脑配置信息
 		computer_message = driver.find_element_by_id("text").text
 		print u"电脑详情:\n" + computer_message
@@ -58,7 +58,7 @@ if __name__ == '__main__':
 	driver.maximize_window()
 	LoginBasePage().user_login(driver, "test", "123456")
 	sleep(2)
-	ShoppingBasePage().buy_computers(driver, u"凌辰", "6685617", "here")
+	ShoppingBasePage().buy_computers(driver, u"华硕笔记本A8H233sc-DR(90NNKXAI131815AN", u"凌辰", "6685617", "here")
 
 	driver.implicitly_wait(3)
 	driver.quit()
