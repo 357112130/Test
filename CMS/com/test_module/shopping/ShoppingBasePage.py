@@ -21,7 +21,7 @@ class ShoppingBasePage():
 		driver.find_element_by_link_text(computer_name).click()
 		# 打印该电脑配置信息
 		computer_message = driver.find_element_by_id("text").text
-		print u"电脑详情:\n" + computer_message
+		print (u"电脑详情:\n" + computer_message)
 		# 点击加入购物车
 		driver.find_element_by_xpath(
 			"/html/body/table[4]/tbody/tr/td[1]/table[2]/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr[7]/td/a[1]").click()
@@ -48,7 +48,7 @@ class ShoppingBasePage():
 		driver.find_element_by_name("Submit").click()
 		# 打印收货人信息
 		receiving_message = driver.find_element_by_xpath("//*[@id='myorder']/table/tbody/tr[5]/td/table/tbody").text
-		print u"收货人信息:\n" + receiving_message
+		print (u"收货人信息:\n" + receiving_message)
 		# 点击提交订单
 		driver.find_element_by_name("Submit").click()
 
