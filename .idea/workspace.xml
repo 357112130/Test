@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="python+selenium+unittest+HtmlTestRunner生成测试报告demo">
+    <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="optimization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logintest/com/run_all_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/logintest/com/run_all_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logintest/com/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/logintest/com/send_email.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logintest/com/testcase/logintest/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/logintest/com/testcase/logintest/test01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logintest/com/testcase/logintest/test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/logintest/com/testcase/logintest/test02.py" afterDir="false" />
     </list>
@@ -37,7 +36,7 @@
     <SUITE FILE_PATH="coverage/pyProject$test.coverage" NAME="test Coverage Results" MODIFIED="1548766306610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/register" />
     <SUITE FILE_PATH="coverage/pyProject$RegisterBasePage.coverage" NAME="RegisterBasePage Coverage Results" MODIFIED="1549880788533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/register" />
     <SUITE FILE_PATH="coverage/pyProject$ShoppingBasePage.coverage" NAME="ShoppingBasePage Coverage Results" MODIFIED="1551274774768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/shopping" />
-    <SUITE FILE_PATH="coverage/pyProject$Unittests_in_logintest.coverage" NAME="Unittests in logintest Coverage Results" MODIFIED="1551524501900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logintest" />
+    <SUITE FILE_PATH="coverage/pyProject$Unittests_in_logintest.coverage" NAME="Unittests in logintest Coverage Results" MODIFIED="1551525453899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logintest" />
     <SUITE FILE_PATH="coverage/pyProject$user_login.coverage" NAME="user_login Coverage Results" MODIFIED="1548593034554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/login" />
     <SUITE FILE_PATH="coverage/pyProject$LoginBasePage.coverage" NAME="LoginBasePage Coverage Results" MODIFIED="1550236837696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/login" />
     <SUITE FILE_PATH="coverage/pyProject$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1546091175914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoProject/polls" />
@@ -130,14 +129,14 @@
         <counts>
           <entry key="data" value="48" />
           <entry key="dummy" value="47" />
-          <entry key="py" value="7335" />
+          <entry key="py" value="7337" />
           <entry key="txt" value="445" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="540" />
-          <entry key="Python" value="7333" />
+          <entry key="Python" value="7335" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
@@ -157,7 +156,7 @@
         <entry file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test01.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="n#!!doc" />
               </folding>
@@ -168,8 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logintest/com/run_all_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="999">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="1026">
+              <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -177,7 +176,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logintest/com/send_email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-530">
+            <state relative-caret-position="54">
               <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc" />
@@ -189,8 +188,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+            <state relative-caret-position="-432">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" />
               </folding>
@@ -224,6 +223,7 @@
       <find>CommonBasepahe</find>
       <find>CommonBasePage</find>
       <find>print</find>
+      <find>u</find>
     </findStrings>
     <replaceStrings>
       <replace>#</replace>
@@ -235,6 +235,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/myProject/com/my/小心心.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test01.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test02.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/logintest/com/run_all_case.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/myProject/com/automationTest/baidu/test.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/myProject/com/automationTest/qqEmail_robotframework/QQEmail.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/myProject/com/pyMysql/connect_mysql.py" root0="SKIP_HIGHLIGHTING" />
@@ -281,10 +284,10 @@
         <option value="$PROJECT_DIR$/logintest/com/testcase/send_email.py" />
         <option value="$PROJECT_DIR$/logintest/com/testcase/send.py" />
         <option value="$PROJECT_DIR$/logintest/com/send_e.py" />
-        <option value="$PROJECT_DIR$/logintest/com/testcase/logintest/test01.py" />
-        <option value="$PROJECT_DIR$/logintest/com/run_all_case.py" />
         <option value="$PROJECT_DIR$/logintest/com/send_email.py" />
         <option value="$PROJECT_DIR$/logintest/com/testcase/logintest/test02.py" />
+        <option value="$PROJECT_DIR$/logintest/com/run_all_case.py" />
+        <option value="$PROJECT_DIR$/logintest/com/testcase/logintest/test01.py" />
       </list>
     </option>
   </component>
@@ -689,13 +692,17 @@
       <option name="project" value="LOCAL" />
       <updated>1551525298368</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="optimization">
+      <created>1551525448869</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1551525448869</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_MyTestCase_py - 2019.01.19 at 14h 09m 25s.xml">
-      <configuration name="Unittests in MyTestCase.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_MyTestCase_py - 2019.01.19 at 14h 15m 07s.xml">
       <configuration name="Unittests in MyTestCase.py" configurationId="tests" />
     </history-entry>
@@ -723,6 +730,9 @@
     <history-entry file="Unittests_in_logintest - 2019.03.02 at 19h 03m 29s.xml">
       <configuration name="Unittests in logintest" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_logintest - 2019.03.02 at 19h 18m 35s.xml">
+      <configuration name="Unittests in logintest" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -737,13 +747,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49626866" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.68976545" weight="0.32218507" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.68976545" weight="0.64882946" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4914712" weight="0.32552955" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -835,7 +845,8 @@
     <MESSAGE value="修改'CommonBasePage'大小写" />
     <MESSAGE value="切换python37版本" />
     <MESSAGE value="python+selenium+unittest+HtmlTestRunner生成测试报告demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="python+selenium+unittest+HtmlTestRunner生成测试报告demo" />
+    <MESSAGE value="optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1131,10 +1142,10 @@
     <entry file="file://$PROJECT_DIR$/logintest/com/testcase/login_password_error.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test01.py">
+    <entry file="file://$PROJECT_DIR$/logintest/com/send_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        <state relative-caret-position="54">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc" />
           </folding>
@@ -1143,15 +1154,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logintest/com/run_all_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="1026">
+          <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logintest/com/send_email.py">
+    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-530">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="216">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="n#!!doc" />
           </folding>
@@ -1160,8 +1171,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        <state relative-caret-position="-432">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" />
           </folding>

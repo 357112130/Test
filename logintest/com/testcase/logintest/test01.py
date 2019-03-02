@@ -12,14 +12,14 @@ import time
 class Test(unittest.TestCase):
 	@classmethod
 	def setUpClass(cls):
-		print(u"开始测试")
+		print("开始测试")
 
 	@classmethod
 	def tearDownClass(cls):
-		print(u"结束测试")
+		print("结束测试")
 
 	def test01(self):
-		print(u"执行测试用例test01")
+		print("执行测试用例test01")
 
 
 if __name__ == '__main__':
