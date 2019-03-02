@@ -6,7 +6,6 @@
 # @file：test01.py
 # @modified By:
 import unittest
-import time
 
 
 class Test(unittest.TestCase):

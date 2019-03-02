@@ -50,4 +50,5 @@ def main2():
 	sendEmail(mail_body, title, config['from_name'], config['from'], config['to'], config['serverport'],
 			  config['serverip'], config['username'], config['password'])
 
-# main()
+
+main2()
