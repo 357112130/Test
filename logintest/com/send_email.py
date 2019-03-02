@@ -6,7 +6,7 @@
 # @file：send_email.py
 # @modified By:
 import smtplib
-import os.path as pth
+# import os.path as pth
 import time
 from email.mime.text import MIMEText
 from email.header import Header

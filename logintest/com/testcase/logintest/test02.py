@@ -45,7 +45,7 @@ class Test(unittest.TestCase):
 		time.sleep(10)
 		link = self.driver.find_element_by_id("useralias")
 		# 断言用户登录成功验证是否存在
-		self.assertTrue("凌辰" in link.text)
+		self.assertTrue(u"凌辰" in link.text)
 
 	def test_login_username_error(self):
 		# 用户名错误,密码正确
@@ -53,7 +53,7 @@ class Test(unittest.TestCase):
 		time.sleep(10)
 		error_message = self.driver.find_element_by_id("error_tips").text
 		# 断言错误的用户名tips=error_message
-		self.assertIn("请输入正确的帐号！", error_message)
+		self.assertIn(u"请输入正确的帐号！", error_message)
 		# 截图
 		self.driver.get_screenshot_as_file("D://pyProject//logintest//com//testcase//login_username_error.jpg")
 
@@ -63,7 +63,7 @@ class Test(unittest.TestCase):
 		time.sleep(10)
 		error_message = self.driver.find_element_by_id("error_tips").text
 		# 断言错误的密码tips=error_message
-		self.assertIn("你输入的帐号或密码不正确，请重新输入。", error_message)
+		self.assertIn(u"你输入的帐号或密码不正确，请重新输入。", error_message)
 		# 截图
 		self.driver.get_screenshot_as_file("D://pyProject//logintest//com//testcase//login_password_error.jpg")
 
@@ -73,7 +73,7 @@ class Test(unittest.TestCase):
 		time.sleep(10)
 		error_message = self.driver.find_element_by_id("error_tips").text
 		# 断言用户名为空tips=error_message
-		self.assertEqual(error_message, "你还没有输入帐号！")
+		self.assertEqual(error_message, u"你还没有输入帐号！")
 		# 截图
 		self.driver.get_screenshot_as_file("D://pyProject//logintest//com//testcase//login_username_null.jpg")
 
@@ -83,7 +83,7 @@ class Test(unittest.TestCase):
 		time.sleep(10)
 		error_message = self.driver.find_element_by_id("error_tips").text
 		# 断言密码为空tips=error_message
-		self.assertEqual(error_message, "你还没有输入密码！")
+		self.assertEqual(error_message, u"你还没有输入密码！")
 		# 截图
 		self.driver.get_screenshot_as_file("D://pyProject//logintest//com//testcase//login_password_null.jpg")
 

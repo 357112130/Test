@@ -6,7 +6,7 @@
 # @file：run_all_case.py
 # @modified By:
 import unittest
-import os
+# import os
 import HtmlTestRunner
 from logintest.com.send_email import main2
 
@@ -32,7 +32,7 @@ if __name__ == "__main__":
 	# runner.run(allcase())
 	report_path = "D://pyProject//logintest//com//testcase//result.html"
 	fp = open(report_path, "wb")
-	runner = HtmlTestRunner.HTMLTestRunner(stream=fp, title="自动化测试unittest测试框架报告", description="用例执行情况:")
+	runner = HtmlTestRunner.HTMLTestRunner(stream=fp, title=u"自动化测试unittest测试框架报告", description=u"用例执行情况:")
 	runner.run(allcase())
 	fp.close()
 
