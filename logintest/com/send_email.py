@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @author: ycg
 # @description: 
-# @date: create in 2018/12/12 20:09
+# @date: create in 2019/3/2 18:28
 # @file：send_email.py
 # @modified By:
 import smtplib
@@ -31,22 +31,20 @@ def sendEmail(content, title, from_name, from_address, to_address, serverport, s
 
 # HEFEN_D = pth.abspath(pth.dirname(__file__))
 
-def main():
-	TO = ['2214571423@qq.com']
+def main2():
+	TO = ['2634772529@qq.com']
 	config = {
-		"from": "69xxxxxxxx2@qq.com",
+		"from": "357112130@qq.com",
 		"from_name": '自动化测试unittest测试框架报告:',
 		"to": TO,
 		"serverip": "smtp.qq.com",
 		"serverport": "465",
-		"username": "357112130qq.com",
+		"username": "357112130@qq.com",
 		"password": "aptx_48691"  # QQ邮箱的SMTP授权码
 	}
+
 	title = "自动化测试unittest测试框架报告"
-	try:
-		f = open("D://pyProject//logintest//com//testcase//result.html", 'rb')
-	except IOError:
-		pass
+	f = open("D://pyProject//logintest//com//testcase//result.html", 'rb')
 	mail_body = f.read()
 	f.close()
 	sendEmail(mail_body, title, config['from_name'], config['from'], config['to'], config['serverport'],
