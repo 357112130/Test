@@ -1,7 +1,7 @@
 # !/usr/bin/python
 # -*- coding: utf-8 -*-
 import unittest
-from HTMLTestRunner3 import HTMLTestRunner
+from HTMLTestRunner import HTMLTestRunner
 import time
 from email.mime.text import MIMEText
 from email.header import Header
