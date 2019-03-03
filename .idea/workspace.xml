@@ -1,73 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="1">
-      <change afterPath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/19520351.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/RuoYi-v3.2.0-brightgreen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/apistatus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/docsify.min.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/prism-java.min.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/search.js.download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/translate_24dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/translateelement.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/vue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/run_all_case.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/testcase/open_browser/openBrowser.py" afterDir="false" />
+    <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="Ruoyi管理系统测试demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logintest/com/run_all_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/logintest/com/run_all_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logintest/com/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/logintest/com/send_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/baidu/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/com/automationTest/baidu/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/qqEmail_robotframework/QQEmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/com/automationTest/qqEmail_robotframework/QQEmail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/HTMLTestRunner3.py" beforeDir="false" afterPath="$PROJECT_DIR$/mytestpro-master/HTMLTestRunner3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/report/2016_11_15_20_00_03result.html" beforeDir="false" afterPath="$PROJECT_DIR$/mytestpro-master/mail_app/report/2016_11_15_20_00_03result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/report/2016_11_15_20_02_51result.html" beforeDir="false" afterPath="$PROJECT_DIR$/mytestpro-master/mail_app/report/2016_11_15_20_02_51result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/test_case/model/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/mytestpro-master/mail_app/test_case/model/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/run_all_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/mytestpro-master/run_all_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/locale.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/locale.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/os.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/os.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/Acquisition/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Acquisition/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/HtmlTestRunner/result.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/HtmlTestRunner/result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/OFS/LockItem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/OFS/LockItem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/ZEO/scripts/cache_simul.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/ZEO/scripts/cache_simul.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/ZEO/scripts/parsezeolog.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/ZEO/scripts/parsezeolog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/ZEO/scripts/zeoqueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/ZEO/scripts/zeoqueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/ZEO/scripts/zeoreplay.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/ZEO/scripts/zeoreplay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/ZEO/scripts/zeoup.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/ZEO/scripts/zeoup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/ZODB/FileStorage/fsoids.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/ZODB/FileStorage/fsoids.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/ZODB/scripts/fstest.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/ZODB/scripts/fstest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/ZODB/tests/testFileStorage.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/ZODB/tests/testFileStorage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/ZODB/tests/test_cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/ZODB/tests/test_cache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/ZODB/tests/testfsoids.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/ZODB/tests/testfsoids.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/recompiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/recompiler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/vengine_cpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cffi/vengine_cpy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/configuration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/configuration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/prepare.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/prepare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolve.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/misc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/_tokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/html5lib/_tokenizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/help.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/appengine.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/appengine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/pyparsing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/archive_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/archive_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/easy_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/easy_install.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/trollius/selectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/trollius/selectors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/trollius/unix_events.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/trollius/unix_events.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/appengine.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urllib3/contrib/appengine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/bdist_wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/bdist_wheel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/zdaemon/zdctl.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/zdaemon/zdctl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/zope/publisher/interfaces/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/zope/publisher/interfaces/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/zope/tal/interfaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/zope/tal/interfaces.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/zope/tal/tests/markbench.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/zope/tal/tests/markbench.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/zope/tales/expressions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/zope/tales/expressions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description.html" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/19520351.js.download" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description/19520351.js.download" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/RuoYi-v3.2.0-brightgreen.svg" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description/RuoYi-v3.2.0-brightgreen.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/apistatus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description/apistatus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/docsify.min.js.download" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description/docsify.min.js.download" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/prism-java.min.js.download" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description/prism-java.min.js.download" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/search.js.download" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description/search.js.download" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/translate_24dp.png" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description/translate_24dp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/translateelement.css" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description/translateelement.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/vue.css" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description/vue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/run_all_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/run_all_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/testcase/login_test/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/testcase/login_test/test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/testcase/open_browser/openBrowser.py" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/testcase/open_browser/openBrowser.py" afterDir="false" />
     </list>
     <ignored path="pyProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -175,7 +124,7 @@
           <entry key="html" value="22" />
           <entry key="jpg" value="14" />
           <entry key="md" value="1" />
-          <entry key="py" value="250" />
+          <entry key="py" value="253" />
           <entry key="sqlite_master" value="1" />
           <entry key="sqlite_sequence" value="1" />
           <entry key="ts" value="1" />
@@ -191,7 +140,7 @@
           <entry key="Image" value="14" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="250" />
+          <entry key="Python" value="253" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -201,12 +150,12 @@
           <entry key="data" value="48" />
           <entry key="dummy" value="47" />
           <entry key="py" value="8468" />
-          <entry key="txt" value="472" />
+          <entry key="txt" value="492" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="567" />
+          <entry key="PLAIN_TEXT" value="587" />
           <entry key="Python" value="8466" />
           <entry key="SQL" value="2" />
         </counts>
@@ -222,22 +171,7 @@
     <favorites_list name="pyProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/run_all_case.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/testcase/open_browser/openBrowser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -336,6 +270,7 @@
         <option value="$PROJECT_DIR$/mytestpro-master/run_all_tests.py" />
         <option value="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/run_all_case.py" />
         <option value="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/testcase/open_browser/openBrowser.py" />
+        <option value="$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/testcase/login_test/test01.py" />
       </list>
     </option>
   </component>
@@ -385,33 +320,13 @@
             <path>
               <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="mytestpro-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
               <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyProject" type="462c0819:PsiDirectoryNode" />
               <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="DocumentDescription" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="DocumentDescription" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="DocumentDescription" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-              <item name="open_browser" type="462c0819:PsiDirectoryNode" />
+              <item name="test_main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -801,7 +716,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551616446633</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Ruoyi管理系统测试demo">
+      <created>1551619384211</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1551619384211</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -847,7 +769,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20788912" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -859,7 +780,7 @@
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4914712" weight="0.4136009" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49573562" weight="0.26309922" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49573562" visible="true" weight="0.26309922" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.5127932" weight="0.19843924" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49573562" weight="0.28874025" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49520257" weight="0.32887402" />
@@ -925,7 +846,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="open()方法:增加最大化浏览器方法" />
     <MESSAGE value="1.优化代码&#10;2.增加注释" />
     <MESSAGE value="test" />
     <MESSAGE value="pyhthon+selenium+unittest+HtmlTestRunner(实例)" />
@@ -950,7 +870,8 @@
     <MESSAGE value="python+selenium+unittest+HtmlTestRunner生成测试报告demo补充" />
     <MESSAGE value="python+appium+模拟器demo" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="Ruoyi管理系统测试demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ruoyi管理系统测试demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -989,9 +910,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/djangoProject/polls/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangoProject/polls/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1126,24 +1044,10 @@
     <entry file="file://$PROJECT_DIR$/logintest/com/testcase/screenshot_error/login_username_error.jpg" />
     <entry file="file://$PROJECT_DIR$/logintest/com/testcase/screenshot_error/login_password_error.jpg" />
     <entry file="file://$PROJECT_DIR$/logintest/com/testcase/screenshot_error/login_password_null.jpg" />
-    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logintest/com/testcase/report/result_logintest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
@@ -1202,13 +1106,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/19520351.js.download">
+    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description/19520351.js.download">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description/vue.css">
+    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description/vue.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/document_description.html">
+    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mytestpro-master/mail_app/test_case/model/driver.py">
@@ -1231,15 +1135,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/run_all_case.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/DocumentDescription/testcase/open_browser/openBrowser.py">
+    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="817">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/testcase/login_test/test01.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/testcase/open_browser/openBrowser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/run_all_case.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
