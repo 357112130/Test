@@ -44,7 +44,7 @@ def mains():
 	}
 
 	title = u"自动化测试unittest测试框架报告"
-	f = open("D://pyProject//logintest//com//testcase//report//result_logintest.html", "rb")
+	f = open("D://pyProject//logintest//com//testcase//report_test//result_logintest.html", "rb")
 	mail_body = f.read()
 	f.close()
 	sendEmail(mail_body, title, config['from_name'], config['from'], config['to'], config['serverport'],

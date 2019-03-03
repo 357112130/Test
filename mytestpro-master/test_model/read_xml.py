@@ -15,23 +15,23 @@ print(root.ELEMENT_NODE)
 ###### 获得任意标签名 #####
 tagname = root.getElementsByTagName('browser')
 print(tagname[0].tagName)
-tagname = root.getElementsByTagName('login')
+tagname = root.getElementsByTagName('login_test')
 print(tagname[1].tagName)
 tagname = root.getElementsByTagName('province')
 print(tagname[2].tagName)
 
 ###### 获得标签的属性值 #####
-logins = root.getElementsByTagName('login')
-# 获得 login 标签的 username 属性值
+logins = root.getElementsByTagName('login_test')
+# 获得 login_test 标签的 username 属性值
 username = logins[0].getAttribute("username")
 print(username)
-# 获得 login 标签的 password 属性值
+# 获得 login_test 标签的 password 属性值
 password = logins[0].getAttribute("password")
 print(password)
-# 获得第二个 login 标签的 username 属性值
+# 获得第二个 login_test 标签的 username 属性值
 username = logins[1].getAttribute("username")
 print(username)
-# 获得第二个 login 标签的 password 属性值
+# 获得第二个 login_test 标签的 password 属性值
 password = logins[1].getAttribute("password")
 print(password)
 

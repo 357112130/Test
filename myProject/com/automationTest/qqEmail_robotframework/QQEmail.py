@@ -94,7 +94,7 @@ class SendMailTest:
 
         # 生成日志、报告文件
         ResultWriter(result).write_results(
-            report="report.html", log="log.html")
+            report="report_test.html", log="log.html")
 
 
 if __name__ == "__main__":

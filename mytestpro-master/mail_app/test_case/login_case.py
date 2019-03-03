@@ -31,7 +31,7 @@ class loginTest(myunit.MyTest):
         po = LoginPage(self.driver)
         po.open()
         character = random.choice('zyxwvutsrqponmlkjihgfedcba')
-        username = "login" + character
+        username = "login_test" + character
         po.login_action(username,"@#$%")
         sleep(2)
         self.assertEqual(po.login_error_hint(), '帐号或密码错误')

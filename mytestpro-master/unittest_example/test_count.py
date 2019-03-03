@@ -16,7 +16,7 @@ class TestCount:
         except AssertionError as msg:
             print(msg)
         else:
-            print('login pass!')
+            print('login_test pass!')
 
 if __name__ == '__main__':
     # 执行测试类的测试方法

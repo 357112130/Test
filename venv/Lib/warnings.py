@@ -250,7 +250,7 @@ def warn_explicit(message, category, filename, lineno,
         text = message
         message = category(message)
     key = (text, category, lineno)
-    # Quick login for common case
+    # Quick login_test for common case
     if registry.get(key):
         return
     # Search the filters

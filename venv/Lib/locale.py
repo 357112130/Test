@@ -675,7 +675,7 @@ locale_encoding_alias = {
     'koi8_r':                       'KOI8-R',
     'koi8_u':                       'KOI8-U',
     # XXX This list is still incomplete. If you know more
-    # mappings, please file a bug report. Thanks.
+    # mappings, please file a bug report_test. Thanks.
 }
 
 #
@@ -1771,7 +1771,7 @@ locale_alias = {
 # to include every locale up to Windows Vista.
 #
 # NOTE: this mapping is incomplete.  If your language is missing, please
-# submit a bug report to the Python bug tracker at http://bugs.python.org/
+# submit a bug report_test to the Python bug tracker at http://bugs.python.org/
 # Make sure you include the missing language identifier and the suggested
 # locale code.
 #

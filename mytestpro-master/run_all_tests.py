@@ -37,7 +37,7 @@ def get_new_file(files):
 if __name__ == '__main__':
     test_app = "./mail_app" #定义测试应用
     now_time =  time.strftime("%Y_%m_%d_%H_%M_%S")
-    fp = open(test_app+"/report/"+now_time+"result.html",'wb')
+    fp = open(test_app+"/report_test/"+now_time+"result.html",'wb')
     runner = HTMLTestRunner(fp,
                            title="xxx测试报告",
                            description="运行环境：windows 10, firefox")

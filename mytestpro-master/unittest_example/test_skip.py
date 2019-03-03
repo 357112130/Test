@@ -16,15 +16,15 @@ class MyTest(unittest.TestCase):
 
     @unittest.skip("直接跳过测试")
     def test_skip(self):
-        print("login aaa")
+        print("login_test aaa")
 
     @unittest.skipIf(3 > 5, "当条件为True时跳过测试")
     def test_skip_if(self):
-        print('login bbb')
+        print('login_test bbb')
 
     @unittest.skipUnless(3 > 5, "当条件为True时执行测试")
     def test_skip_unless(self):
-        print('login ccc')
+        print('login_test ccc')
 
     @unittest.expectedFailure
     def test_expected_failure(self):

@@ -12,7 +12,7 @@ import time
 driver = webdriver.Chrome()
 driver.get("http://www.126.com")
 
-print('Before login================')
+print('Before login_test================')
 # 打印当前页面 title
 title = driver.title
 print(title)
@@ -31,7 +31,7 @@ driver.find_element_by_id("dologin").click()
 driver.switch_to.default_content()
 time.sleep(5)
 
-print('After login================')
+print('After login_test================')
 # 再次打印当前页面 title
 title = driver.title
 print(title)
