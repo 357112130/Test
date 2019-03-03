@@ -23,7 +23,7 @@ def sendEmail(content, title, from_name, from_address, to_address, serverport, s
 		s.login(username, password)
 		# 这里的to_address是真正需要发送的到的mail邮箱地址需要的是一个list
 		s.sendmail(from_address, to_address, msg.as_string())
-		print('%s----发送邮件成功' % time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+		print('%s----发送测试报告邮件成功' % time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
 	except Exception as error:
 		print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
 		print(error)
@@ -31,24 +31,24 @@ def sendEmail(content, title, from_name, from_address, to_address, serverport, s
 
 # HEFEN_D = pth.abspath(pth.dirname(__file__))
 
-def main2():
+def mains():
 	TO = ['2634772529@qq.com']
 	config = {
 		"from": "357112130@qq.com",
 		"from_name": '自动化测试unittest测试框架报告:',
 		"to": TO,
 		"serverip": "smtp.qq.com",
-		"serverport": "465",
+		"serverport": "465",#465 587
 		"username": "357112130@qq.com",
-		"password": "aptx_48691"  # QQ邮箱的SMTP授权码
+		"password": "plwuyrlmwcvpcajj"  # QQ邮箱的SMTP授权码
 	}
 
-	title = "自动化测试unittest测试框架报告"
-	f = open("D://pyProject//logintest//com//testcase//result.html", 'rb')
+	title = u"自动化测试unittest测试框架报告"
+	f = open("D://pyProject//logintest//com//testcase//report//result_logintest.html", "rb")
 	mail_body = f.read()
 	f.close()
 	sendEmail(mail_body, title, config['from_name'], config['from'], config['to'], config['serverport'],
 			  config['serverip'], config['username'], config['password'])
 
-
-main2()
+if __name__ == '__main__':
+    mains()
