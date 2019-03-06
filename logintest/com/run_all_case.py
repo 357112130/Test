@@ -30,7 +30,7 @@ def allcase():
 if __name__ == "__main__":
 	# runner=unittest.TextTestRunner()
 	# runner.run(allcase())
-	report_path = "D://pyProject//logintest//com//testcase//report_test//result_logintest.html"
+	report_path = "D://pyProject//logintest//com//testcase//report//result_logintest.html"
 	fp = open(report_path, "wb")
 	# runner = BeautifulReport(allcase())
 	# runner.report_test(description=u"test报告",filename=u"自动化测试unittest测试框架报告")
