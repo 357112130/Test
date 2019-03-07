@@ -17,17 +17,17 @@ class MyTests(unittest.TestCase):
 		desired_caps = {'platformName': 'Android',  # 平台名称
 						'platformVersion': '4.4.2',  # 系统版本号
 						'deviceName': '127.0.0.1:62001',  # 设备名称。如果是真机，在'设置->关于手机->设备名称'里查看
-						'appPackage': 'com.example.testapp',  # apk的包名
-						'appActivity': 'com.example.testapp.MainActivity'  # activity 名称
+						'appPackage': 'com.example.androidtest',  # apk的包名
+						'appActivity': 'com.fg.androidtest.activty.LoginActivity'  # activity 名称
 						}
 		self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)  # 连接Appium
 		self.driver.implicitly_wait(8)
 
 	# 执行case
 	def test_input(self):
-		self.driver.find_element_by_id("editText1").send_keys("111")
-		self.driver.find_element_by_id("editText2").send_keys("222")
-		self.driver.find_element_by_id("Button").click()
+		self.driver.find_element_by_id("loginId").send_keys("18370763232")
+		self.driver.find_element_by_id("loginPassword").send_keys("aptx_4869")
+		self.driver.find_element_by_id("loginBtn").click()
 		sleep(2)
 
 	# 测试结束后执行的方法
