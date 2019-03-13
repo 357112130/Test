@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="调试优化">
+    <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="appiumTest">
+      <change afterPath="$PROJECT_DIR$/myProject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/config/config_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/constant/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/constant/constant_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/encapsulation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/encapsulation/encapsulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/error_picture/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/function/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/function/function_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/log/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/log/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/report/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/run_all_case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/test_case/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myProject/com/ZHENAI/test_case/test_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/testcase/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/com/appiumTest/testcase/test_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/testcase/login_test/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/test_main/testcase/login_test/test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logintest/com/testcase/logintest/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/logintest/com/testcase/logintest/test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProject/com/126_email/Login/__init__.py" beforeDir="false" />
     </list>
     <ignored path="pyProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,20 +37,23 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pyProject$HelloW.coverage" NAME="HelloW Coverage Results" MODIFIED="1546611593167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/my" />
+    <SUITE FILE_PATH="coverage/pyProject$Unittests_in_LoginPage_py.coverage" NAME="Unittests in LoginPage.py Coverage Results" MODIFIED="1552142053132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/126_email/Login" />
     <SUITE FILE_PATH="coverage/pyProject$Unittests_in_testcase.coverage" NAME="Unittests in testcase Coverage Results" MODIFIED="1551524460889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logintest/com/testcase" />
     <SUITE FILE_PATH="coverage/pyProject$QQEmail.coverage" NAME="QQEmail Coverage Results" MODIFIED="1544708237051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/automationTest/qqEmail_robotframework" />
     <SUITE FILE_PATH="coverage/pyProject$test_email.coverage" NAME="test_email Coverage Results" MODIFIED="1544193081024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/automationTest/auton" />
     <SUITE FILE_PATH="coverage/pyProject$ModifyBasePage.coverage" NAME="ModifyBasePage Coverage Results" MODIFIED="1550238305428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/modify" />
     <SUITE FILE_PATH="coverage/pyProject$tests.coverage" NAME="tests Coverage Results" MODIFIED="1546091169363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoProject/polls" />
+    <SUITE FILE_PATH="coverage/pyProject$function_01.coverage" NAME="function_01 Coverage Results" MODIFIED="1552193679609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/ZHENAI/function" />
+    <SUITE FILE_PATH="coverage/pyProject$run_all_case__1_.coverage" NAME="run_all_case (1) Coverage Results" MODIFIED="1552183816424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/126_email" />
     <SUITE FILE_PATH="coverage/pyProject$run_all_tests.coverage" NAME="run_all_tests Coverage Results" MODIFIED="1551616035656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytestpro-master" />
     <SUITE FILE_PATH="coverage/pyProject$.coverage" NAME="小心心 Coverage Results" MODIFIED="1546087710225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/my" />
     <SUITE FILE_PATH="coverage/pyProject$apps.coverage" NAME="apps Coverage Results" MODIFIED="1546091172654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoProject/polls" />
     <SUITE FILE_PATH="coverage/pyProject$Unittests_in_MyTestCase_py.coverage" NAME="Unittests in MyTestCase.py Coverage Results" MODIFIED="1547878558775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/automationTest/auton" />
     <SUITE FILE_PATH="coverage/pyProject$1111.coverage" NAME="1111 Coverage Results" MODIFIED="1551274738568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/my" />
-    <SUITE FILE_PATH="coverage/pyProject$run_all_case.coverage" NAME="run_all_case Coverage Results" MODIFIED="1551880616188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logintest/com" />
-    <SUITE FILE_PATH="coverage/pyProject$run_case.coverage" NAME="run_case Coverage Results" MODIFIED="1551975321139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/appiumTest" />
+    <SUITE FILE_PATH="coverage/pyProject$run_all_case.coverage" NAME="run_all_case Coverage Results" MODIFIED="1552190212333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/ZHENAI" />
+    <SUITE FILE_PATH="coverage/pyProject$run_case.coverage" NAME="run_case Coverage Results" MODIFIED="1552099816458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/appiumTest" />
     <SUITE FILE_PATH="coverage/pyProject$99.coverage" NAME="99 Coverage Results" MODIFIED="1546611479138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/my" />
-    <SUITE FILE_PATH="coverage/pyProject$Unittests_in_appiumTest.coverage" NAME="Unittests in appiumTest Coverage Results" MODIFIED="1551599738261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/appiumTest" />
+    <SUITE FILE_PATH="coverage/pyProject$Unittests_in_appiumTest.coverage" NAME="Unittests in appiumTest Coverage Results" MODIFIED="1552103362566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/appiumTest" />
     <SUITE FILE_PATH="coverage/pyProject$LoginPage.coverage" NAME="LoginPage Coverage Results" MODIFIED="1548680831859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/126_email/Login" />
     <SUITE FILE_PATH="coverage/pyProject$Unittests_for_test01_Test_test01.coverage" NAME="Unittests for test01.Test.test01 Coverage Results" MODIFIED="1544622621949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logintest/com/testcase/logintest" />
     <SUITE FILE_PATH="coverage/pyProject$Unittests_in_logintest__1_.coverage" NAME="Unittests in logintest (1) Coverage Results" MODIFIED="1544709179856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logintest/com/testcase/logintest" />
@@ -91,17 +116,18 @@
     <session id="949104155">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="65" />
+          <entry key="project.closed" value="73" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.166" value="1" />
           <entry key="project.open.time.2" value="11" />
-          <entry key="project.open.time.3" value="27" />
-          <entry key="project.open.time.4" value="15" />
+          <entry key="project.open.time.3" value="30" />
+          <entry key="project.open.time.4" value="18" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="66" />
+          <entry key="project.opened" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -109,10 +135,11 @@
           <entry key="css" value="1" />
           <entry key="data" value="5" />
           <entry key="django_migrations" value="1" />
-          <entry key="html" value="25" />
+          <entry key="html" value="31" />
           <entry key="jpg" value="15" />
+          <entry key="log" value="2" />
           <entry key="md" value="1" />
-          <entry key="py" value="270" />
+          <entry key="py" value="306" />
           <entry key="sqlite_master" value="1" />
           <entry key="sqlite_sequence" value="1" />
           <entry key="ts" value="1" />
@@ -124,11 +151,12 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="Database Element" value="3" />
-          <entry key="HTML" value="25" />
+          <entry key="HTML" value="31" />
           <entry key="Image" value="15" />
+          <entry key="Log" value="2" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="270" />
+          <entry key="Python" value="306" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -136,15 +164,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="data" value="48" />
-          <entry key="dummy" value="47" />
-          <entry key="py" value="8527" />
-          <entry key="txt" value="496" />
+          <entry key="dummy" value="48" />
+          <entry key="html" value="1" />
+          <entry key="py" value="10993" />
+          <entry key="txt" value="506" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="591" />
-          <entry key="Python" value="8525" />
+          <entry key="HTML" value="1" />
+          <entry key="PLAIN_TEXT" value="602" />
+          <entry key="Python" value="10991" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
@@ -159,32 +189,7 @@
     <favorites_list name="pyProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/run_case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-              <folding>
-                <element signature="n#!!doc" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/testcase/test_app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-              <folding>
-                <element signature="n#!!doc" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -236,28 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/myProject/com/automationTest/auton/test_email.py" />
-        <option value="$PROJECT_DIR$/myProject/com/126_email/Login/11.py" />
-        <option value="$PROJECT_DIR$/myProject/com/126_email/Login/aa.py" />
-        <option value="$PROJECT_DIR$/myProject/com/126_email/Login/55.py" />
-        <option value="$PROJECT_DIR$/myProject/com/126_email/Login/LoginPage.py" />
-        <option value="$PROJECT_DIR$/myProject/com/pyMysql/connect_mysql.py" />
-        <option value="$PROJECT_DIR$/myProject/com/testcase/run_all_case.py" />
-        <option value="$PROJECT_DIR$/myProject/com/testcase/logintest/run_all_case.py" />
-        <option value="$PROJECT_DIR$/logintest/com/testcase/logintest/test.py" />
-        <option value="$PROJECT_DIR$/myProject/com/automationTest/qqEmail_robotframework/QQEmail.py" />
-        <option value="$PROJECT_DIR$/myProject/com/automationTest/baidu/test.py" />
-        <option value="$PROJECT_DIR$/myProject/com/my/小心❤.py" />
-        <option value="$PROJECT_DIR$/myProject/com/my/小❤❤.py" />
-        <option value="$PROJECT_DIR$/myProject/com/my/小心心.py" />
-        <option value="$PROJECT_DIR$/myProject/com/my/weather.py" />
-        <option value="$PROJECT_DIR$/myProject/com/my/99.py" />
-        <option value="$PROJECT_DIR$/myProject/com/automationTest/auton/MyTestCase.py" />
-        <option value="$PROJECT_DIR$/CMS/data.ts" />
-        <option value="$PROJECT_DIR$/CMS/com/data" />
-        <option value="$PROJECT_DIR$/CMS/com/test_module/login/user_login.py" />
-        <option value="$PROJECT_DIR$/27/test27.py" />
-        <option value="$PROJECT_DIR$/CMS/com/test_module/register/test.py" />
         <option value="$PROJECT_DIR$/CMS/com/test_module/common/CommonBasepage.py" />
         <option value="$PROJECT_DIR$/CMS/com/test_module/modify/ModifyBasePage.py" />
         <option value="$PROJECT_DIR$/CMS/com/test_module/register/RegisterBasePage.py" />
@@ -287,6 +270,28 @@
         <option value="$PROJECT_DIR$/logintest/com/run_all_case.py" />
         <option value="$PROJECT_DIR$/logintest/com/send_email.py" />
         <option value="$PROJECT_DIR$/myProject/com/appiumTest/testcase/test_app.py" />
+        <option value="$PROJECT_DIR$/myProject/com/126_email/Login/LoginPage.py" />
+        <option value="$PROJECT_DIR$/myProject/com/126_email/config/__init__.py" />
+        <option value="$PROJECT_DIR$/myProject/com/126_email/constant/__init__.py" />
+        <option value="$PROJECT_DIR$/myProject/com/126_email/data/__init__.py" />
+        <option value="$PROJECT_DIR$/myProject/com/126_email/encapsulation/__init__.py" />
+        <option value="$PROJECT_DIR$/myProject/com/126_email/error_picture/__init__.py" />
+        <option value="$PROJECT_DIR$/myProject/com/126_email/function/__init__.py" />
+        <option value="$PROJECT_DIR$/myProject/com/126_email/log/__init__.py" />
+        <option value="$PROJECT_DIR$/myProject/com/126_email/report/__init__.py" />
+        <option value="$PROJECT_DIR$/myProject/com/126_email/test_case/__init__.py" />
+        <option value="$PROJECT_DIR$/myProject/com/126_email/run_all_case.py" />
+        <option value="$PROJECT_DIR$/myProject/com/126_email/constant/constant_01.py" />
+        <option value="$PROJECT_DIR$/myProject/com/126_email/config/config_01.py" />
+        <option value="$PROJECT_DIR$/myProject/com/126_email/encapsulation/encapsulation.py" />
+        <option value="$PROJECT_DIR$/myProject/com/ZHENAI/log/log.py" />
+        <option value="$PROJECT_DIR$/myProject/com/ZHENAI/test_case/test01.py" />
+        <option value="$PROJECT_DIR$/myProject/com/ZHENAI/run_all_case.py" />
+        <option value="$PROJECT_DIR$/myProject/com/ZHENAI/test_case/test_01.py" />
+        <option value="$PROJECT_DIR$/myProject/com/ZHENAI/encapsulation/encapsulation.py" />
+        <option value="$PROJECT_DIR$/myProject/com/ZHENAI/config/config_01.py" />
+        <option value="$PROJECT_DIR$/myProject/com/ZHENAI/function/function_01.py" />
+        <option value="$PROJECT_DIR$/djangoProject/templates/index.html" />
       </list>
     </option>
   </component>
@@ -312,7 +317,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>PyPep8Inspection</id>
+            <id>PyCompatibilityInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -326,7 +331,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -350,25 +354,13 @@
               <item name="pyProject" type="462c0819:PsiDirectoryNode" />
               <item name="myProject" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="appiumTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="myProject" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="appiumTest" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ZHENAI" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,6 +374,9 @@
     <property name="ts.external.directory.path" value="E:\PyCharm 2018.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pyProject\myProject\com\ZHENAI" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\pyProject\RuoyiManagementSystem\DocumentDescription" />
     </key>
@@ -398,7 +393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_app.py">
+  <component name="RunManager" selected="Python.function_01">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -418,7 +413,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="LoginBasePage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="function_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -426,12 +421,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CMS/com/test_module/login" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myProject/com/ZHENAI/function" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CMS/com/test_module/login/LoginBasePage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myProject/com/ZHENAI/function/function_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_all_case (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myProject/com/126_email" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\pyProject\myProject\com\ZHENAI\run_all_case.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -448,12 +465,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logintest/com" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myProject/com/ZHENAI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logintest/com/run_all_case.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myProject/com/ZHENAI/run_all_case.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -462,79 +479,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_all_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in D:/pyProject/myProject/com/ZHENAI/Login/LoginPage.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mytestpro-master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myProject/com/ZHENAI/Login" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mytestpro-master/run_all_tests.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/myProject/com/ZHENAI/Login/LoginPage.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="run_case" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in appiumTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myProject/com/appiumTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myProject/com/appiumTest/run_case.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_app.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="pyProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myProject/com/appiumTest/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/myProject/com/appiumTest/testcase/test_app.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/myProject/com/appiumTest&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.run_all_tests" />
-      <item itemvalue="Python.LoginBasePage" />
+      <item itemvalue="Python tests.Unittests in appiumTest" />
+      <item itemvalue="Python tests.Unittests in D:/pyProject/myProject/com/ZHENAI/Login/LoginPage.py" />
+      <item itemvalue="Python.run_all_case (1)" />
       <item itemvalue="Python.run_all_case" />
-      <item itemvalue="Python.run_case" />
-      <item itemvalue="Python tests.Unittests in test_app.py" />
+      <item itemvalue="Python.function_01" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_app.py" />
-        <item itemvalue="Python.run_case" />
+        <item itemvalue="Python.function_01" />
         <item itemvalue="Python.run_all_case" />
-        <item itemvalue="Python.LoginBasePage" />
-        <item itemvalue="Python.run_all_tests" />
+        <item itemvalue="Python.run_all_case (1)" />
+        <item itemvalue="Python tests.Unittests in D:/pyProject/myProject/com/ZHENAI/Login/LoginPage.py" />
+        <item itemvalue="Python tests.Unittests in appiumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -787,39 +775,46 @@
       <option name="project" value="LOCAL" />
       <updated>1551881034850</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="appiumTest">
+      <created>1551975484569</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1551975484569</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_logintest - 2019.03.02 at 20h 16m 19s.xml">
-      <configuration name="Unittests in logintest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_logintest - 2019.03.02 at 20h 28m 46s.xml">
-      <configuration name="Unittests in logintest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_logintest - 2019.03.02 at 20h 48m 31s.xml">
-      <configuration name="Unittests in logintest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_logintest - 2019.03.02 at 20h 51m 57s.xml">
-      <configuration name="Unittests in logintest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_appiumTest - 2019.03.03 at 15h 55m 47s.xml">
-      <configuration name="Unittests in appiumTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_app_py - 2019.03.03 at 16h 27m 31s.xml">
-      <configuration name="Unittests in test_app.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_app_py - 2019.03.03 at 16h 28m 02s.xml">
-      <configuration name="Unittests in test_app.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_mytestpro-master - 2019.03.03 at 20h 26m 04s.xml">
-      <configuration name="Unittests in mytestpro-master" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_mytestpro-master - 2019.03.03 at 20h 27m 06s.xml">
-      <configuration name="Unittests in mytestpro-master" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_app_py - 2019.03.08 at 00h 16m 09s.xml">
       <configuration name="Unittests in test_app.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_appiumTest - 2019.03.09 at 10h 51m 05s.xml">
+      <configuration name="Unittests in appiumTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_appiumTest - 2019.03.09 at 10h 56m 08s.xml">
+      <configuration name="Unittests in appiumTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_appiumTest - 2019.03.09 at 10h 58m 10s.xml">
+      <configuration name="Unittests in appiumTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_appiumTest - 2019.03.09 at 11h 04m 05s.xml">
+      <configuration name="Unittests in appiumTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_appiumTest - 2019.03.09 at 11h 47m 59s.xml">
+      <configuration name="Unittests in appiumTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_appiumTest - 2019.03.09 at 11h 49m 44s.xml">
+      <configuration name="Unittests in appiumTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_LoginPage_py - 2019.03.09 at 22h 30m 58s.xml">
+      <configuration name="Unittests in LoginPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_LoginPage_py - 2019.03.09 at 22h 33m 41s.xml">
+      <configuration name="Unittests in LoginPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_LoginPage_py - 2019.03.09 at 22h 34m 13s.xml">
+      <configuration name="Unittests in LoginPage.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -834,13 +829,13 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17643923" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49626866" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.68976545" weight="0.37904125" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.68976545" weight="0.28874025" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4914712" weight="0.4136009" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -848,16 +843,43 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.5127932" weight="0.39130434" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49573562" weight="0.28874025" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49520257" weight="0.32887402" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.31023455" side_tool="true" weight="0.24972129" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.31023455" side_tool="true" visible="true" weight="0.24972129" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" sideWeight="0.49946696" weight="0.32998884" />
       <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49946696" weight="0.32998884" />
+      <window_info anchor="bottom" id="Messages" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="4" weight="0.17590618" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="TypeScript" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49626866" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.68976545" weight="0.37904125" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.4914712" weight="0.4136009" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49573562" weight="0.26309922" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.5127932" weight="0.39130434" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49573562" weight="0.28874025" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49520257" weight="0.32887402" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.31023455" side_tool="true" weight="0.24972129" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="14" sideWeight="0.49946696" weight="0.32998884" />
+      <window_info anchor="bottom" id="Database Console" order="15" sideWeight="0.49946696" weight="0.32998884" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.17590618" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -910,7 +932,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="pyhthon+selenium+unittest+HtmlTestRunner(实例)" />
     <MESSAGE value="添加异常断言" />
     <MESSAGE value="优化warn" />
@@ -935,7 +956,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="Ruoyi管理系统测试demo" />
     <MESSAGE value="调试优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="调试优化" />
+    <MESSAGE value="appiumTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="appiumTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -974,174 +996,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/login_password_null.jpg" />
-    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/login_password_error.jpg" />
-    <entry file="file://D:/Python37/Lib/unittest/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="347" selection-start-line="347" selection-end-line="347" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python37/Lib/unittest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648" />
-      </provider>
-    </entry>
-    <entry file="file://D:/Python37/Lib/unittest/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="91" column="6" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python37/Lib/unittest/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1410413755/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python37/Lib/site-packages/HtmlTestRunner/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Python37/Lib/site-packages/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="777" column="52" selection-start-line="777" selection-start-column="52" selection-end-line="777" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/login_username_null.jpg" />
-    <entry file="file://$PROJECT_DIR$/CMS/com/test_module/common/CommonBasePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python37/Lib/smtplib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="665" column="8" selection-start-line="665" selection-start-column="8" selection-end-line="665" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python37/Lib/site-packages/HtmlTestRunner/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/result.html" />
-    <entry file="file://$PROJECT_DIR$/myProject/com/automationTest/qqEmail_robotframework/QQEmail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/com/automationTest/auton/MyTestCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-800" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/com/automationTest/auton/test_email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/screenshot_error/login_username_null.jpg" />
-    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/screenshot_error/login_username_error.jpg" />
-    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/screenshot_error/login_password_null.jpg" />
-    <entry file="file://D:/Python37/Lib/site-packages/appium/webdriver/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="114" column="60" selection-start-line="114" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mytestpro-master/mail_app/report/2019_03_03_20_27_15result.html" />
-    <entry file="file://$PROJECT_DIR$/mytestpro-master/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description/19520351.js.download">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description/vue.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mytestpro-master/mail_app/test_case/model/driver.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mytestpro-master/run_all_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/testcase/login_test/test01.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/testcase/open_browser/openBrowser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mytestpro-master/HTMLTestRunner3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/document_description.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangoProject/djangoProject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1944" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/run_all_case.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://D:/Python37/Lib/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1175,13 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logintest/com/自动化测试unittest测试框架报告.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1195,27 +1042,10 @@
     <entry file="file://$PROJECT_DIR$/logintest/com/testcase/screenshot_error/login_password_error.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/logintest/com/run_all_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" column="66" lean-forward="true" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMS/com/test_module/common/log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="113" column="69" selection-start-line="113" selection-start-column="62" selection-end-line="113" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/run_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1226,15 +1056,240 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/testcase/test_app.py">
+    <entry file="file://D:/Python37/Lib/site-packages/appium/webdriver/errorhandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <element signature="n#!!doc" />
-          </folding>
+        <state relative-caret-position="342">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/testcase/test_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/run_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37/Lib/unittest/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="274" selection-start-line="274" selection-end-line="274" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="452" column="8" selection-start-line="452" selection-start-column="8" selection-end-line="452" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/config/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/constant/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/encapsulation/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/error_picture/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/function/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/log/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/report/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/test_case/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/126_email/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/Login/LoginPage.py" />
+    <entry file="file://$PROJECT_DIR$/myProject/com/126_email/Login/LoginPage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/geckodriver.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="81">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37/Lib/unittest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/test.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logintest/com/run_all_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="32" column="66" lean-forward="true" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/report/2019-03-51-11_51_07result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/report/2019-03-51-11_51_35result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/report/2019-03-52-11_52_21result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/report/2019-03-53-11_53_20result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="313" column="51" lean-forward="true" selection-start-line="313" selection-start-column="51" selection-end-line="313" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="79" column="43" lean-forward="true" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/config/config_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/encapsulation/encapsulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/function/function_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/test_case/test_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/run_all_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/log/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/ZHENAI/constant/constant_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logintest/com/testcase/logintest/test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoProject/polls/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoProject/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
