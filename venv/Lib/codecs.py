@@ -111,11 +111,11 @@ class Codec:
 
     """ Defines the interface for stateless encoders/decoders.
 
-        The .encode()/.decode() methods may use different error
+        The .encode()/.decode() methods may use different screenshot_error
         handling schemes by providing the errors argument. These
         string values are predefined:
 
-         'strict' - raise a ValueError error (or a subclass)
+         'strict' - raise a ValueError screenshot_error (or a subclass)
          'ignore' - ignore the character and continue with the next
          'replace' - replace with a suitable replacement character;
                     Python will use the official U+FFFD REPLACEMENT
@@ -134,7 +134,7 @@ class Codec:
         """ Encodes the object input and returns a tuple (output
             object, length consumed).
 
-            errors defines the error handling to apply. It defaults to
+            errors defines the screenshot_error handling to apply. It defaults to
             'strict' handling.
 
             The method may not store state in the Codec instance. Use
@@ -157,7 +157,7 @@ class Codec:
             buffer slot. Python strings, buffer objects and memory
             mapped files are examples of objects providing this slot.
 
-            errors defines the error handling to apply. It defaults to
+            errors defines the screenshot_error handling to apply. It defaults to
             'strict' handling.
 
             The method may not store state in the Codec instance. Use
@@ -181,7 +181,7 @@ class IncrementalEncoder(object):
         """
         Creates an IncrementalEncoder instance.
 
-        The IncrementalEncoder may use different error handling schemes by
+        The IncrementalEncoder may use different screenshot_error handling schemes by
         providing the errors keyword argument. See the module docstring
         for a list of possible values.
         """
@@ -254,7 +254,7 @@ class IncrementalDecoder(object):
         """
         Creates an IncrementalDecoder instance.
 
-        The IncrementalDecoder may use different error handling schemes by
+        The IncrementalDecoder may use different screenshot_error handling schemes by
         providing the errors keyword argument. See the module docstring
         for a list of possible values.
         """
@@ -344,7 +344,7 @@ class StreamWriter(Codec):
             stream must be a file-like object open for writing
             (binary) data.
 
-            The StreamWriter may use different error handling
+            The StreamWriter may use different screenshot_error handling
             schemes by providing the errors keyword argument. These
             parameters are predefined:
 
@@ -417,7 +417,7 @@ class StreamReader(Codec):
             stream must be a file-like object open for reading
             (binary) data.
 
-            The StreamReader may use different error handling
+            The StreamReader may use different screenshot_error handling
             schemes by providing the errors keyword argument. These
             parameters are predefined:
 
@@ -871,9 +871,9 @@ def open(filename, mode='rb', encoding=None, errors='strict', buffering=1):
         encoding specifies the encoding which is to be used for the
         file.
 
-        errors may be given to define the error handling. It defaults
+        errors may be given to define the screenshot_error handling. It defaults
         to 'strict' which causes ValueErrors to be raised in case an
-        encoding error occurs.
+        encoding screenshot_error occurs.
 
         buffering has the same meaning as for the builtin open() API.
         It defaults to line buffered.
@@ -917,9 +917,9 @@ def EncodedFile(file, data_encoding, file_encoding=None, errors='strict'):
 
         If file_encoding is not given, it defaults to data_encoding.
 
-        errors may be given to define the error handling. It defaults
+        errors may be given to define the screenshot_error handling. It defaults
         to 'strict' which causes ValueErrors to be raised in case an
-        encoding error occurs.
+        encoding screenshot_error occurs.
 
         The returned wrapped file object provides two extra attributes
         .data_encoding and .file_encoding which reflect the given
@@ -1080,7 +1080,7 @@ def make_encoding_map(decoding_map):
             m[v] = None
     return m
 
-### error handlers
+### screenshot_error handlers
 
 try:
     strict_errors = lookup_error("strict")
@@ -1089,7 +1089,7 @@ try:
     xmlcharrefreplace_errors = lookup_error("xmlcharrefreplace")
     backslashreplace_errors = lookup_error("backslashreplace")
 except LookupError:
-    # In --disable-unicode builds, these error handler are missing
+    # In --disable-unicode builds, these screenshot_error handler are missing
     strict_errors = None
     ignore_errors = None
     replace_errors = None

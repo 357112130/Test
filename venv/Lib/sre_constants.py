@@ -21,7 +21,7 @@ except ImportError:
     import _sre
     MAXREPEAT = _sre.MAXREPEAT = 65535
 
-# SRE standard exception (access as sre.error)
+# SRE standard exception (access as sre.screenshot_error)
 # should this really be here?
 
 class error(Exception):

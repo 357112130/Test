@@ -174,7 +174,7 @@ class Template_mixin(object):
     STATUS = {
     0: 'pass',
     1: 'fail',
-    2: 'error',
+    2: 'screenshot_error',
     }
 
     DEFAULT_TITLE = 'Unit Test Report'
@@ -445,13 +445,13 @@ a.popup_link:hover {
     <td>%(count)s</td>
     <td class="text text-success">%(Pass)s</td>
     <td class="text text-danger">%(fail)s</td>
-    <td class="text text-warning">%(error)s</td>
+    <td class="text text-warning">%(screenshot_error)s</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
 </tr>
 </table>
-""" # variables: (test_list, count, Pass, fail, error)
+""" # variables: (test_list, count, Pass, fail, screenshot_error)
 
     REPORT_CLASS_TMPL = r"""
 <tr class='%(style)s'>
@@ -460,11 +460,11 @@ a.popup_link:hover {
     <td>%(count)s</td>
     <td>%(Pass)s</td>
     <td>%(fail)s</td>
-    <td>%(error)s</td>
+    <td>%(screenshot_error)s</td>
     <td><a href="javascript:showClassDetail('%(cid)s',%(count)s)">Detail</a></td>
     <td>image</td>
 </tr>
-""" # variables: (style, desc, count, Pass, fail, error, cid)
+""" # variables: (style, desc, count, Pass, fail, screenshot_error, cid)
 
 
     REPORT_TEST_WITH_OUTPUT_TMPL = r"""
@@ -547,7 +547,7 @@ class _TestResult(TestResult):
 
         # result is a list of result in 4 tuple
         # (
-        #   result code (0: success; 1: fail; 2: error),
+        #   result code (0: success; 1: fail; 2: screenshot_error),
         #   TestCase object,
         #   Test output (byte string),
         #   stack trace,

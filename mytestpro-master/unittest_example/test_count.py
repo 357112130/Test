@@ -12,7 +12,7 @@ class TestCount:
         try:
             c = Calculator(2,4)
             result = c.add()
-            assert(result == 6),'Integer addition result error!'
+            assert(result == 6),'Integer addition result screenshot_error!'
         except AssertionError as msg:
             print(msg)
         else:

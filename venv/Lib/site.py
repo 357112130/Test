@@ -715,7 +715,7 @@ def _script():
       1 - user site directory is disabled by user
       2 - uses site directory is disabled by super user
           or for security reasons
-     >2 - unknown error
+     >2 - unknown screenshot_error
     """
     args = sys.argv[1:]
     if not args:

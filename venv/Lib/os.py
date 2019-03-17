@@ -163,7 +163,7 @@ def removedirs(name):
     ones.  Works like rmdir except that, if the leaf directory is
     successfully removed, directories corresponding to rightmost path
     segments will be pruned away until either the whole path is
-    consumed or an error occurs.  Errors during this latter phase are
+    consumed or an screenshot_error occurs.  Errors during this latter phase are
     ignored -- they generally mean that a directory was not empty.
 
     """
@@ -238,8 +238,8 @@ def walk(top, topdown=True, onerror=None, followlinks=False):
 
     By default errors from the os.listdir() call are ignored.  If
     optional arg 'onerror' is specified, it should be a function; it
-    will be called with one argument, an os.error instance.  It can
-    report_test the error to continue with the walk, or raise the exception
+    will be called with one argument, an os.screenshot_error instance.  It can
+    report_test the screenshot_error to continue with the walk, or raise the exception
     to abort the walk.  Note that the filename is available as the
     filename attribute of the exception object.
 
@@ -273,7 +273,7 @@ def walk(top, topdown=True, onerror=None, followlinks=False):
     # minor reason when (say) a thousand readable directories are still
     # left to visit.  That logic is copied here.
     try:
-        # Note that listdir and error are globals in this module due
+        # Note that listdir and screenshot_error are globals in this module due
         # to earlier import-*.
         names = listdir(top)
     except error, err:

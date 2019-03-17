@@ -615,7 +615,7 @@ def _parse(source, state):
                     dir = 1
                     if char == "<":
                         if source.next not in LOOKBEHINDASSERTCHARS:
-                            raise error, "syntax error"
+                            raise error, "syntax screenshot_error"
                         dir = -1 # lookbehind
                         char = sourceget()
                         state.lookbehind += 1
@@ -699,7 +699,7 @@ def _parse(source, state):
             subpatternappend(code)
 
         else:
-            raise error, "parser error"
+            raise error, "parser screenshot_error"
 
     return subpattern
 

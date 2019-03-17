@@ -97,7 +97,7 @@ Some of the functions in this module takes flags as optional parameters:
     X  VERBOSE     Ignore whitespace and comments for nicer looking RE's.
     U  UNICODE     Make \w, \W, \b, \B, dependent on the Unicode locale.
 
-This module also defines an exception 'error'.
+This module also defines an exception 'screenshot_error'.
 
 """
 

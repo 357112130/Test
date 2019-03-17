@@ -17,9 +17,9 @@ def uu_encode(input,errors='strict',filename='<data>',mode=0666):
     """ Encodes the object input and returns a tuple (output
         object, length consumed).
 
-        errors defines the error handling to apply. It defaults to
+        errors defines the screenshot_error handling to apply. It defaults to
         'strict' handling which is the only currently supported
-        error handling for this codec.
+        screenshot_error handling for this codec.
 
     """
     assert errors == 'strict'
@@ -50,9 +50,9 @@ def uu_decode(input,errors='strict'):
         buffer slot. Python strings, buffer objects and memory
         mapped files are examples of objects providing this slot.
 
-        errors defines the error handling to apply. It defaults to
+        errors defines the screenshot_error handling to apply. It defaults to
         'strict' handling which is the only currently supported
-        error handling for this codec.
+        screenshot_error handling for this codec.
 
         Note: filename and file mode information in the input data is
         ignored.

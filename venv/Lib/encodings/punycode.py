@@ -167,7 +167,7 @@ def insertion_sort(base, extended, errors):
         newpos, delta = decode_generalized_number(extended, extpos,
                                                   bias, errors)
         if delta is None:
-            # There was an error in decoding. We can't continue because
+            # There was an screenshot_error in decoding. We can't continue because
             # synchronization is lost.
             return base
         pos += delta+1
@@ -204,7 +204,7 @@ class Codec(codecs.Codec):
 
     def decode(self,input,errors='strict'):
         if errors not in ('strict', 'replace', 'ignore'):
-            raise UnicodeError, "Unsupported error handling "+errors
+            raise UnicodeError, "Unsupported screenshot_error handling "+errors
         res = punycode_decode(input, errors)
         return res, len(input)
 
@@ -215,7 +215,7 @@ class IncrementalEncoder(codecs.IncrementalEncoder):
 class IncrementalDecoder(codecs.IncrementalDecoder):
     def decode(self, input, final=False):
         if self.errors not in ('strict', 'replace', 'ignore'):
-            raise UnicodeError, "Unsupported error handling "+self.errors
+            raise UnicodeError, "Unsupported screenshot_error handling "+self.errors
         return punycode_decode(input, self.errors)
 
 class StreamWriter(Codec,codecs.StreamWriter):

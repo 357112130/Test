@@ -276,7 +276,7 @@ def walk(top, func, arg):
 # Expand paths beginning with '~' or '~user'.
 # '~' means $HOME; '~user' means that user's home directory.
 # If the path doesn't begin with '~', or if the user or $HOME is unknown,
-# the path is returned unchanged (leaving error reporting to whatever
+# the path is returned unchanged (leaving screenshot_error reporting to whatever
 # function is called with the expanded path as argument).
 # See also module 'glob' for expansion of *, ? and [...] in pathnames.
 # (A function should also be defined to do full *sh-style environment

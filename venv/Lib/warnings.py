@@ -68,7 +68,7 @@ def filterwarnings(action, message="", category=Warning, module="", lineno=0,
                    append=0):
     """Insert an entry into the list of warnings filters (at the front).
 
-    'action' -- one of "error", "ignore", "always", "default", "module",
+    'action' -- one of "screenshot_error", "ignore", "always", "default", "module",
                 or "once"
     'message' -- a regex that the warning message must match
     'category' -- a class that the warning must be a subclass of
@@ -77,7 +77,7 @@ def filterwarnings(action, message="", category=Warning, module="", lineno=0,
     'append' -- if true, append to the list of filters
     """
     import re
-    assert action in ("error", "ignore", "always", "default", "module",
+    assert action in ("screenshot_error", "ignore", "always", "default", "module",
                       "once"), "invalid action: %r" % (action,)
     assert isinstance(message, basestring), "message must be a string"
     assert isinstance(category, (type, types.ClassType)), \
@@ -97,13 +97,13 @@ def simplefilter(action, category=Warning, lineno=0, append=0):
     """Insert a simple entry into the list of warnings filters (at the front).
 
     A simple filter matches all modules and messages.
-    'action' -- one of "error", "ignore", "always", "default", "module",
+    'action' -- one of "screenshot_error", "ignore", "always", "default", "module",
                 or "once"
     'category' -- a class that the warning must be a subclass of
     'lineno' -- an integer line number, 0 matches all warnings
     'append' -- if true, append to the list of filters
     """
-    assert action in ("error", "ignore", "always", "default", "module",
+    assert action in ("screenshot_error", "ignore", "always", "default", "module",
                       "once"), "invalid action: %r" % (action,)
     assert isinstance(lineno, int) and lineno >= 0, \
            "lineno must be an int >= 0"
@@ -161,7 +161,7 @@ def _getaction(action):
     if not action:
         return "default"
     if action == "all": return "always" # Alias
-    for a in ('default', 'always', 'ignore', 'module', 'once', 'error'):
+    for a in ('default', 'always', 'ignore', 'module', 'once', 'screenshot_error'):
         if a.startswith(action):
             return a
     raise _OptionError("invalid action: %r" % (action,))
@@ -272,7 +272,7 @@ def warn_explicit(message, category, filename, lineno,
     # "file" is actually in a zipfile or something.
     linecache.getlines(filename, module_globals)
 
-    if action == "error":
+    if action == "screenshot_error":
         raise message
     # Other actions
     if action == "once":
@@ -383,7 +383,7 @@ class catch_warnings(object):
 
 # filters contains a sequence of filter 5-tuples
 # The components of the 5-tuple are:
-# - an action: error, ignore, always, default, module, or once
+# - an action: screenshot_error, ignore, always, default, module, or once
 # - a compiled regex that must match the warning message
 # - a class representing the warning category
 # - a compiled regex that must match the module that is being warned
@@ -413,7 +413,7 @@ if not _warnings_defaults:
         simplefilter("ignore", category=cls)
     bytes_warning = sys.flags.bytes_warning
     if bytes_warning > 1:
-        bytes_action = "error"
+        bytes_action = "screenshot_error"
     elif bytes_warning:
         bytes_action = "default"
     else:

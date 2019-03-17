@@ -12,9 +12,9 @@ except ImportError:
 def quopri_encode(input, errors='strict'):
     """Encode the input, returning a tuple (output object, length consumed).
 
-    errors defines the error handling to apply. It defaults to
+    errors defines the screenshot_error handling to apply. It defaults to
     'strict' handling which is the only currently supported
-    error handling for this codec.
+    screenshot_error handling for this codec.
 
     """
     assert errors == 'strict'
@@ -28,9 +28,9 @@ def quopri_encode(input, errors='strict'):
 def quopri_decode(input, errors='strict'):
     """Decode the input, returning a tuple (output object, length consumed).
 
-    errors defines the error handling to apply. It defaults to
+    errors defines the screenshot_error handling to apply. It defaults to
     'strict' handling which is the only currently supported
-    error handling for this codec.
+    screenshot_error handling for this codec.
 
     """
     assert errors == 'strict'

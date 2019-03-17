@@ -17,9 +17,9 @@ def bz2_encode(input,errors='strict'):
     """ Encodes the object input and returns a tuple (output
         object, length consumed).
 
-        errors defines the error handling to apply. It defaults to
+        errors defines the screenshot_error handling to apply. It defaults to
         'strict' handling which is the only currently supported
-        error handling for this codec.
+        screenshot_error handling for this codec.
 
     """
     assert errors == 'strict'
@@ -35,9 +35,9 @@ def bz2_decode(input,errors='strict'):
         buffer slot. Python strings, buffer objects and memory
         mapped files are examples of objects providing this slot.
 
-        errors defines the error handling to apply. It defaults to
+        errors defines the screenshot_error handling to apply. It defaults to
         'strict' handling which is the only currently supported
-        error handling for this codec.
+        screenshot_error handling for this codec.
 
     """
     assert errors == 'strict'
