@@ -8,22 +8,26 @@
 from time import sleep
 from appium import webdriver
 import unittest
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.by import By
+import selenium.webdriver.support.expected_conditions as EC
+import selenium.webdriver.support.ui as ui
 from PIL import Image
 from PIL import ImageEnhance
 import pytesseract
-from myProject.com.appiumTest.data.data import config, desired_caps, user_data, state_condition, path
+from myProject.com.appiumTest.data.data import connect_config, desired_caps, user_data, state_condition, path
 
 
-class MyTests(unittest.TestCase):
+class AppTest(unittest.TestCase):
 
 	# 开始前执行的方法
 	def setUp(self):
 		# 连接Appium
-		self.driver = webdriver.Remote(config["appiumServe"], desired_caps)
+		self.driver = webdriver.Remote(connect_config["appiumServe"], desired_caps)
 		print(state_condition["connect_appiumSucess"] + "...")
 		self.driver.implicitly_wait(6)
 
-	# 执行的用例
+	# 执行用例
 	def test_option(self):
 		# 进行注册操作
 		self.driver.find_element_by_id("loginNewUser").click()  # 点击新用户注册
@@ -56,24 +60,27 @@ class MyTests(unittest.TestCase):
 		code = pytesseract.image_to_string(image)  # 读取里面的内容
 		print(code)
 		# 输入验证码
-		self.driver.find_element_by_id("registerAuth").clear()
-		self.driver.find_element_by_id("registerAuth").send_keys(code)
+		# self.driver.find_element_by_id("registerAuth").clear()
+		# self.driver.find_element_by_id("registerAuth").send_keys(code)
 		sleep(10)
 		# 点击注册按钮
 		self.driver.find_element_by_id("registerBtn").click()
 		print(state_condition["registerSuccess"] + "...")
 		sleep(1)
+		# 断言注册成功
+		if ui.WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located((By.ID, "message"))):
+			register_success_msg = self.driver.find_element_by_id("message").text
+			print(register_success_msg)
+			if self.assertIn(state_condition["registerSuccess"], register_success_msg):
+				print(state_condition["toLogin"] + "...")
+			else:
+				self.driver.get_screenshot_as_file(path["error_path"] + "error_register.jpg")
+				print(state_condition["registerFailed"] + "...")
+		else:
+			print("元素不可见")
 		# 注册成功,点击确认按钮跳转到登录界面
 		self.driver.find_element_by_id("button1").click()
-		# 断言注册成功
-		register_success_msg = self.driver.find_element_by_id("message").text
-		print(register_success_msg)
-		if self.assertIn(state_condition["registerSuccess"], register_success_msg):
-			print(state_condition["toLogin"] + "...")
-		else:
-			self.driver.get_screenshot_as_file(path["error_path"] + "error_register.jpg")
-			print(state_condition["registerFailed"] + "...")
-		sleep(2)
+		sleep(3)
 
 		# 进行登录操作
 		self.driver.find_element_by_id("loginId").clear()
@@ -93,7 +100,6 @@ class MyTests(unittest.TestCase):
 			print(state_condition["loginFailed"])
 		sleep(3)
 
-
-# 测试结束后关闭
-def tearDown(self):
-	self.driver.quit()
+	# 测试结束后关闭
+	def tearDown(self):
+		self.driver.quit()

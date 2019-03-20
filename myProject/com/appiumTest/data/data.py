@@ -7,11 +7,11 @@
 # @modified By:
 
 # 配置说明
-config = {
+connect_config = {
 	"appiumServe": "http://127.0.0.1:4723/wd/hub"
 }
 desired_caps = {"platformName": "Android",  # 平台名称
-				"platformVersion": "4.4.2",  # 系统版本号
+				"platformVersion": "5.1.1",  # 系统版本号
 				"deviceName": "127.0.0.1:62001",  # 设备名称。如果是真机，在"设置->关于手机->设备名称"里查看
 				"appPackage": "com.example.androidtest",  # apk的包名
 				"appActivity": "com.fg.androidtest.activty.LoginActivity"  # activity 名称
