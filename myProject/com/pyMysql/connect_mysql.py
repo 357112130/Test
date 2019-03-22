@@ -26,9 +26,9 @@ try:
 	conn = db.connect(**config)
 	conn.autocommit(1)
 	cursor = conn.cursor()
-except IOError, e:
+except IOError as e:
 	# 打印error log
-	print "Error %d: %s" % (e.args[0], e.args[1])
+	print ("Error %d: %s" % (e.args[0], e.args[1]))
 	sys.exit(1)
 
 try:
@@ -55,20 +55,20 @@ try:
 
 	# 查询表数据条目
 	count = cursor.execute("select * from %s" % TABLE_NAME)
-	print "total records:(总记录)", cursor.rowcount
+	print ("total records:(总记录)", cursor.rowcount)
 
 	# 获取表名信息
 	desc = cursor.description
-	print "%s %3s" % (desc[0][0], desc[1][0])
+	print ("%s %3s" % (desc[0][0], desc[1][0]))
 
 	cursor.scroll(0, mode="absolute")
 	results = cursor.fetchall()
 	for result in results:
-		print result
+		print (result)
 
-except IOError, e:
+except IOError as e:
 	# 打印error log
-	print "Error %d: %s" % (e.args[0], e.args[1])
+	print ("Error %d: %s" % (e.args[0], e.args[1]))
 	sys.exit(1)
 	traceback.print_exc()
 	# 发生错误时回滚

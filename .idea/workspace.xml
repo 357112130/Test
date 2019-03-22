@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="python+appium自动化测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/data/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/com/appiumTest/data/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/testcase/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/com/appiumTest/testcase/test_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProject/com/pyMysql/connect_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/com/pyMysql/connect_mysql.py" afterDir="false" />
     </list>
     <ignored path="pyProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +36,8 @@
     <SUITE FILE_PATH="coverage/pyProject$LoginPage.coverage" NAME="LoginPage Coverage Results" MODIFIED="1548680831859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/126_email/Login" />
     <SUITE FILE_PATH="coverage/pyProject$Unittests_for_test01_Test_test01.coverage" NAME="Unittests for test01.Test.test01 Coverage Results" MODIFIED="1544622621949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logintest/com/testcase/logintest" />
     <SUITE FILE_PATH="coverage/pyProject$Unittests_in_logintest__1_.coverage" NAME="Unittests in logintest (1) Coverage Results" MODIFIED="1544709179856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logintest/com/testcase/logintest" />
-    <SUITE FILE_PATH="coverage/pyProject$connect_mysql.coverage" NAME="connect_mysql Coverage Results" MODIFIED="1544193108681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/pyMysql" />
     <SUITE FILE_PATH="coverage/pyProject$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1551584369105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logintest/com" />
+    <SUITE FILE_PATH="coverage/pyProject$connect_mysql.coverage" NAME="connect_mysql Coverage Results" MODIFIED="1553268886317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/pyMysql" />
     <SUITE FILE_PATH="coverage/pyProject$test.coverage" NAME="test Coverage Results" MODIFIED="1548766306610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/register" />
     <SUITE FILE_PATH="coverage/pyProject$RegisterBasePage.coverage" NAME="RegisterBasePage Coverage Results" MODIFIED="1549880788533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/register" />
     <SUITE FILE_PATH="coverage/pyProject$ShoppingBasePage.coverage" NAME="ShoppingBasePage Coverage Results" MODIFIED="1551274774768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module/shopping" />
@@ -96,18 +95,18 @@
     <session id="949104155">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="79" />
+          <entry key="project.closed" value="80" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.166" value="1" />
           <entry key="project.open.time.2" value="11" />
           <entry key="project.open.time.3" value="31" />
           <entry key="project.open.time.4" value="21" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="81" />
+          <entry key="project.opened" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -120,7 +119,7 @@
           <entry key="log" value="2" />
           <entry key="md" value="1" />
           <entry key="png" value="10" />
-          <entry key="py" value="337" />
+          <entry key="py" value="342" />
           <entry key="pyi" value="1" />
           <entry key="sqlite_master" value="1" />
           <entry key="sqlite_sequence" value="1" />
@@ -138,7 +137,7 @@
           <entry key="Log" value="2" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="337" />
+          <entry key="Python" value="342" />
           <entry key="PythonStub" value="1" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="1" />
@@ -149,7 +148,7 @@
           <entry key="data" value="48" />
           <entry key="dummy" value="48" />
           <entry key="html" value="1" />
-          <entry key="py" value="13242" />
+          <entry key="py" value="13274" />
           <entry key="txt" value="534" />
         </counts>
       </usages-collector>
@@ -157,7 +156,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="PLAIN_TEXT" value="630" />
-          <entry key="Python" value="13240" />
+          <entry key="Python" value="13272" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
@@ -176,7 +175,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/run_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="270">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="n#!!doc" />
@@ -185,11 +184,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/testcase/test_app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+            <state relative-caret-position="186">
+              <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
               <folding>
                 <element signature="n#!!doc" />
               </folding>
@@ -197,11 +196,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/data/data.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myProject/com/pyMysql/connect_mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="158">
+              <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" />
               </folding>
@@ -234,7 +233,6 @@
       <find>true</find>
       <find>CommonBasepahe</find>
       <find>CommonBasePage</find>
-      <find>print</find>
       <find>u</find>
       <find>result_logintest</find>
       <find>D://pyProject//logintest//com//testcase//report//result_logintest.html</find>
@@ -243,6 +241,7 @@
       <find>crop</find>
       <find>path</find>
       <find>'</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>#</replace>
@@ -268,7 +267,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CMS/com/test_module/register/RegisterBasePage.py" />
         <option value="$PROJECT_DIR$/CMS/com/test_module/common/CommonBasePage.py" />
         <option value="$PROJECT_DIR$/myProject/com/my/1111.py" />
         <option value="$PROJECT_DIR$/CMS/com/test_module/shopping/ShoppingBasePage.py" />
@@ -319,6 +317,7 @@
         <option value="$PROJECT_DIR$/myProject/com/appiumTest/run_case.py" />
         <option value="$PROJECT_DIR$/myProject/com/appiumTest/data/data.py" />
         <option value="$PROJECT_DIR$/myProject/com/appiumTest/testcase/test_app.py" />
+        <option value="$PROJECT_DIR$/myProject/com/pyMysql/connect_mysql.py" />
       </list>
     </option>
   </component>
@@ -381,49 +380,41 @@
               <item name="pyProject" type="462c0819:PsiDirectoryNode" />
               <item name="myProject" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="appiumTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pyMysql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="myProject" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="appiumTest" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="myProject" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="appiumTest" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshot_error" type="462c0819:PsiDirectoryNode" />
+              <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="test_main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="myProject" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="appiumTest" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="verification_code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="myProject" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="appiumTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="myProject" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="appiumTest" type="462c0819:PsiDirectoryNode" />
+              <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="test_main" type="462c0819:PsiDirectoryNode" />
               <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="test_main" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="login_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="test_main" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="open_browser" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -462,7 +453,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_app.AppTest.test_option">
+  <component name="RunManager" selected="Python.connect_mysql">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -482,6 +473,28 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration name="connect_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myProject/com/pyMysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myProject/com/pyMysql/connect_mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="function_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -496,28 +509,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myProject/com/ZHENAI/function/function_01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run_all_case" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pyProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myProject/com/ZHENAI" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myProject/com/ZHENAI/run_all_case.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -579,19 +570,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.run_all_case" />
       <item itemvalue="Python.function_01" />
       <item itemvalue="Python.run_case" />
       <item itemvalue="Python tests.Unittests in test_app.py" />
       <item itemvalue="Python tests.Unittests for test_app.AppTest.test_option" />
+      <item itemvalue="Python.connect_mysql" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.connect_mysql" />
         <item itemvalue="Python tests.Unittests for test_app.AppTest.test_option" />
         <item itemvalue="Python.run_case" />
         <item itemvalue="Python tests.Unittests in test_app.py" />
         <item itemvalue="Python.function_01" />
-        <item itemvalue="Python.run_all_case" />
       </list>
     </recent_temporary>
   </component>
@@ -865,7 +856,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552830590001</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="python+appium自动化测试">
+      <created>1553094625383</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1553094625383</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -913,21 +911,21 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.1663113" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.16791044" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5016611" side_tool="true" weight="0.16151386" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.48667377" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6775053" visible="true" weight="0.34559643" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49093816" weight="0.47045708" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.6764392" visible="true" weight="0.34559643" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4904051" weight="0.47045708" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49413645" weight="0.26309922" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.51226014" weight="0.39130434" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4946695" weight="0.28874025" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49093816" weight="0.32887402" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.32249466" side_tool="true" visible="true" weight="0.34559643" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.32356077" side_tool="true" visible="true" weight="0.34559643" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" sideWeight="0.49840087" weight="0.32998884" />
       <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49946696" weight="0.32998884" />
@@ -1085,11 +1083,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-16 19-49-26.html" />
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/image_yzm.png" />
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/image_new.png" />
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/image_old.png" />
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-16 19-51-48.html" />
     <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-16 19-55-47.html" />
     <entry file="file://$PROJECT_DIR$/CMS/com/test_module/register/RegisterBasePage.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1144,34 +1137,12 @@
     <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-17 21-37-18.html" />
     <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-17 21-40-03.html" />
     <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-17 21-41-35.html" />
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/run_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="n#!!doc" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 20-49-41.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 21-42-05.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 21-45-22.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 22-04-59.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 22-07-28.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 22-07-54.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 20-49-41.html" />
+    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 21-42-05.html" />
+    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 21-45-22.html" />
+    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 22-04-59.html" />
+    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 22-07-28.html" />
+    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 22-07-54.html" />
     <entry file="file://D:/Python37/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5321">
@@ -1179,12 +1150,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 22-16-32.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 22-18-57.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 22-16-32.html" />
+    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 22-18-57.html" />
     <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 22-55-22.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1253,10 +1220,44 @@
     <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/image/screenshot_error/error_login.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/run_all_case.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/testcase/open_browser/openBrowser.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/test_main/testcase/login_test/test01.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/run_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myProject/com/appiumTest/testcase/test_app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+        <state relative-caret-position="186">
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37/Lib/traceback.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myProject/com/pyMysql/connect_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" />
           </folding>
