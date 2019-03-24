@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="封装mysqlHelper类">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/.idea/djangoProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/djangoProject/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/djangoProject/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/djangoProject/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/djangoProject/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/polls/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/polls/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/polls/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/polls/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/polls/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/polls/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/polls/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/templates/index.html" beforeDir="false" />
-    </list>
+    <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="封装mysqlHelper类" />
     <ignored path="pyProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -140,7 +117,7 @@
     <session id="949104155">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="85" />
+          <entry key="project.closed" value="86" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.166" value="1" />
           <entry key="project.open.time.2" value="11" />
@@ -414,7 +391,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Django server.demo">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -500,6 +477,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo" type="Python.DjangoServer" factoryName="Django server">
+      <module name="demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_app.AppTest.test_option" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -551,6 +551,7 @@
       <item itemvalue="Python tests.Unittests for test_app.AppTest.test_option" />
       <item itemvalue="Python tests.Unittests in testDjango" />
       <item itemvalue="Python tests.Unittests in test_module" />
+      <item itemvalue="Django server.demo" />
     </list>
     <recent_temporary>
       <list>
@@ -853,13 +854,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553418940604</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="封装mysqlHelper类">
+      <created>1553423829213</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1553423829213</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_appiumTest - 2019.03.09 at 10h 58m 10s.xml">
-      <configuration name="Unittests in appiumTest" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_appiumTest - 2019.03.09 at 11h 04m 05s.xml">
       <configuration name="Unittests in appiumTest" configurationId="tests" />
     </history-entry>
@@ -887,6 +892,9 @@
     <history-entry file="Unittests_in_testDjango - 2019.03.24 at 18h 24m 37s.xml">
       <configuration name="Unittests in testDjango" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_module - 2019.03.24 at 18h 34m 50s.xml">
+      <configuration name="Unittests in test_module" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -898,7 +906,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.17590618" />
       <window_info id="Structure" order="1" weight="0.25" />
