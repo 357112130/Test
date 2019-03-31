@@ -24,7 +24,7 @@ SECRET_KEY = 'l5xtio)*j@0*e34sy0m7i*-ipl82ugkxj@7zsr)+21&-_lsynf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
