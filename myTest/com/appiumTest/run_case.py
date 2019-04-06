@@ -10,7 +10,7 @@ import time
 import unittest
 
 from HTMLTestRunner import HTMLTestRunner
-from myProject.com.appiumTest.data.data import report_data
+from myTest.com.appiumTest.data.data import report_data
 
 test_dir = "./testcase"
 discover = unittest.defaultTestLoader.discover(start_dir="./testcase", pattern="test*.py")

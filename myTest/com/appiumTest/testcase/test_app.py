@@ -15,7 +15,7 @@ import selenium.webdriver.support.ui as ui
 from PIL import Image
 from PIL import ImageEnhance
 import pytesseract
-from myProject.com.appiumTest.data.data import connect_config, desired_caps, user_data, state_condition, path
+from myTest.com.appiumTest.data.data import connect_config, desired_caps, user_data, state_condition, path
 
 
 class AppTest(unittest.TestCase):

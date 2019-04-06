@@ -29,8 +29,8 @@ state_condition = {
 	"loginFailed": "登录失败"
 }
 path = {
-	"yzm_path": "D://pyProject//myProject//com//appiumTest//image//verification_code//",
-	"error_path": "D://pyProject//myProject//com//appiumTest//image//screenshot_error//"
+	"yzm_path": "D://pyProject//myTest//com//appiumTest//image//verification_code//",
+	"error_path": "D://pyProject//myTest//com//appiumTest//image//screenshot_error//"
 }
 report_data = {
 	"title": "python+appium自动化测试报告",
