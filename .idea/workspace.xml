@@ -1,151 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="index">
-      <change afterPath="$PROJECT_DIR$/demo/Explain" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logintest/Explain" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myTest/com/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myTest/com/automationTest/auton/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-master/Explain" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-master/webdriver_api/web_page/upload_file.txt" afterDir="false" />
+    <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="数据库配置">
+      <change afterPath="$PROJECT_DIR$/demo/templates/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/.idea/myProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/.idea/myProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/126_email/Login/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/126_email/Login/LoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/126_email/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/126_email/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/CMS/Explain" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/appiumTest/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/appiumTest/data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/data/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/appiumTest/data/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/image/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/appiumTest/image/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/image/screenshot_error/error_login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/appiumTest/image/screenshot_error/error_login.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/image/screenshot_error/error_register.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/appiumTest/image/screenshot_error/error_register.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/image/verification_code/image_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/appiumTest/image/verification_code/image_new.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/image/verification_code/image_old.png" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/appiumTest/image/verification_code/image_old.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/image/verification_code/image_yzm.png" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/appiumTest/image/verification_code/image_yzm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/run_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/appiumTest/run_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/test_report/2019-03-20 22-55-22.html" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/appiumTest/test_report/2019-03-20 22-55-22.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/testcase/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/appiumTest/testcase/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/appiumTest/testcase/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/appiumTest/testcase/test_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/RuoyiManagementSystem/Explain" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/auton/MyTestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/auton/MyTestCase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/auton/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/auton/test_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/auton/test_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/baidu/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/Explain" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/baidu/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/baidu/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/operation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/baidu/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/operation/written_examination0.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/operation/written_examination0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/operation/written_examination1.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/operation/written_examination1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/operation/written_examination2.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/operation/written_examination2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/operation/written_examination3.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/operation/written_examination3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/operation/written_examination4.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/operation/written_examination4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/qqEmail_robotframework/QQEmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/qqEmail_robotframework/QQEmail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/qqEmail_robotframework/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/operation/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/study/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/qqEmail_robotframework/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/study/practice1.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/study/practice1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/study/practice2.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/study/practice2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/study/practice3.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/study/practice3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/study/practice4.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/study/practice4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/study/practice5.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/study/practice5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/study/practice6.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/study/practice6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/automationTest/study/upfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/study/upfile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/my/99.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/my/99.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/my/HelloW.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/my/HelloW.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/my/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/automationTest/study/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/my/weather.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/my/weather.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/my/小心心.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/my/小心心.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/pyMysql/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/pyMysql/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/pyMysql/connect_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/pyMysql/connect_mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/com/pyMysql/mysql_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/pyMysql/mysql_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/.idea/mytestpro-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/.idea/mytestpro-master.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/HTMLTestRunner3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/HTMLTestRunner3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/report/2016_11_15_20_00_03result.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/report/2016_11_15_20_00_03result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/report/2016_11_15_20_02_51result.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/report/2016_11_15_20_02_51result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/report/2018_12_29_21_24_02result.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/report/2018_12_29_21_24_02result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/report/2018_12_29_21_26_28result.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/report/2018_12_29_21_26_28result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/report/2018_12_29_21_35_29result.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/report/2018_12_29_21_35_29result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/report/2018_12_29_21_35_32result.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/report/2018_12_29_21_35_32result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/report/2018_12_29_21_38_49result.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/report/2018_12_29_21_38_49result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/report/image/001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/report/image/001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/report/image/002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/report/image/002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/report/image/003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/report/image/003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/report/image/004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/report/image/004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/test_case/login_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/test_case/login_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/test_case/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myTest/com/my/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/test_case/model/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/test_case/model/driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/test_case/model/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/test_case/model/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/test_case/model/myunit.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/test_case/model/myunit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/test_case/page_obj/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/test_case/model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/test_case/page_obj/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/test_case/page_obj/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/test_case/page_obj/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/test_case/page_obj/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/mail_app/test_case/page_obj/mail_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/test_case/page_obj/mail_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/run_all_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/run_all_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/test_model/Interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/test_model/Interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/test_model/baidu_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/test_model/baidu_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/test_model/config_file/info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/test_model/config_file/info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/test_model/config_file/info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/test_model/config_file/info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/test_model/config_file/user_info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/test_model/config_file/user_info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/test_model/mail126_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/test_model/mail126_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/test_model/mail126_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/test_model/mail126_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/test_model/mailTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/test_model/mailTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/test_model/mailTest2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/test_model/mailTest2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/test_model/public.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/test_model/public.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/test_model/public2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/test_model/public2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/test_model/read_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/test_model/read_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/test_model/read_txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/test_model/read_txt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/test_model/read_xml.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/test_model/read_xml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/unittest_example/baidu_ide.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/unittest_example/baidu_ide.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/unittest_example/count.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/unittest_example/count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/unittest_example/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/unittest_example/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/unittest_example/run_all_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/unittest_example/run_all_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/unittest_example/test_case/test_baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/unittest_example/test_case/test_baidu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/unittest_example/test_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/unittest_example/test_count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/unittest_example/test_fixtrue.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/unittest_example/test_fixtrue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/unittest_example/test_skip.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/unittest_example/test_skip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/unittest_example/un_test_count01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/unittest_example/un_test_count01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/unittest_example/un_test_count02.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/unittest_example/un_test_count02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/unittest_example/un_test_count03.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/unittest_example/un_test_count03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/assert_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/assert_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/baidu_alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/baidu_alert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/baidu_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/baidu_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/baidu_submit.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/baidu_submit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/baidu_webelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/baidu_webelement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/browser_back.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/browser_back.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/browser_size.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/browser_size.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/cookie_operate.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/cookie_operate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/element_s01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/element_s01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/element_s02.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/element_s02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/element_wait01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/element_wait01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/element_wait02.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/element_wait02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/element_wait03.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/element_wait03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/file_down_chrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/file_down_chrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/file_upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/file_upload.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/firefox_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/firefox_driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/get_windows_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/get_windows_img.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/js_use.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/js_use.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/js_used_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/js_used_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/keyword_opera.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/keyword_opera.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/login126.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/login126.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/mobiscroll.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/mobiscroll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/more_frame_operate.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/more_frame_operate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/more_windows_operate.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/more_windows_operate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/mouse_operate.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/mouse_operate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/select_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/select_tag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/test_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/test_video.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/web_page/baidu_page.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/web_page/baidu_page.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/web_page/checkbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/web_page/checkbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/web_page/frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/web_page/frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/web_page/select_tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/web_page/select_tag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/web_page/upfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/webdriver_api/web_page/upfile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mytestpro-master/webdriver_api/web_page/upload_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test-master/mail_app/test_case/page_obj/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/myapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/myapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/myapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/myapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/myapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/myapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/myapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/myapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/webob/dec.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/webob/dec.py" afterDir="false" />
     </list>
     <ignored path="pyProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -161,7 +30,8 @@
     <SUITE FILE_PATH="coverage/pyProject$Unittests_in_test_module.coverage" NAME="Unittests in test_module Coverage Results" MODIFIED="1553423680232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMS/com/test_module" />
     <SUITE FILE_PATH="coverage/pyProject$Unittests_in_LoginPage_py.coverage" NAME="Unittests in LoginPage.py Coverage Results" MODIFIED="1552142053132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/126_email/Login" />
     <SUITE FILE_PATH="coverage/pyProject$Unittests_in_testcase.coverage" NAME="Unittests in testcase Coverage Results" MODIFIED="1551524460889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logintest/com/testcase" />
-    <SUITE FILE_PATH="coverage/pyProject$manage.coverage" NAME="manage Coverage Results" MODIFIED="1554476236229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/pyProject$manage.coverage" NAME="manage Coverage Results" MODIFIED="1554528400225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/pyProject$admin.coverage" NAME="admin Coverage Results" MODIFIED="1555157395671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/myWeb" />
     <SUITE FILE_PATH="coverage/pyProject$QQEmail.coverage" NAME="QQEmail Coverage Results" MODIFIED="1544708237051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/automationTest/qqEmail_robotframework" />
     <SUITE FILE_PATH="coverage/pyProject$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1553426653362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/pyProject$test_email.coverage" NAME="test_email Coverage Results" MODIFIED="1544193081024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myProject/com/automationTest/auton" />
@@ -294,18 +164,18 @@
     <session id="949104155">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="98" />
+          <entry key="project.closed" value="102" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.166" value="1" />
           <entry key="project.open.time.2" value="11" />
           <entry key="project.open.time.3" value="35" />
-          <entry key="project.open.time.4" value="32" />
+          <entry key="project.open.time.4" value="34" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.5" value="7" />
+          <entry key="project.open.time.5" value="9" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="100" />
+          <entry key="project.opened" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -315,15 +185,15 @@
           <entry key="data" value="6" />
           <entry key="django_migrations" value="2" />
           <entry key="download" value="1" />
-          <entry key="html" value="84" />
+          <entry key="html" value="87" />
           <entry key="iml" value="2" />
           <entry key="jpg" value="20" />
           <entry key="log" value="2" />
           <entry key="md" value="2" />
           <entry key="png" value="10" />
-          <entry key="py" value="467" />
+          <entry key="py" value="499" />
           <entry key="pyi" value="1" />
-          <entry key="sqlite3" value="2" />
+          <entry key="sqlite3" value="3" />
           <entry key="sqlite_master" value="1" />
           <entry key="sqlite_sequence" value="1" />
           <entry key="svg" value="1" />
@@ -337,15 +207,15 @@
         <counts>
           <entry key="CSS" value="2" />
           <entry key="Database Element" value="4" />
-          <entry key="HTML" value="84" />
+          <entry key="HTML" value="87" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="30" />
           <entry key="Log" value="2" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="467" />
+          <entry key="Python" value="499" />
           <entry key="PythonStub" value="1" />
-          <entry key="SQL" value="2" />
+          <entry key="SQL" value="3" />
           <entry key="SVG" value="1" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="8" />
@@ -357,16 +227,16 @@
           <entry key="Explain" value="67" />
           <entry key="data" value="48" />
           <entry key="dummy" value="48" />
-          <entry key="html" value="71" />
-          <entry key="py" value="15502" />
-          <entry key="txt" value="660" />
+          <entry key="html" value="75" />
+          <entry key="py" value="16084" />
+          <entry key="txt" value="668" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="71" />
-          <entry key="PLAIN_TEXT" value="823" />
-          <entry key="Python" value="15488" />
+          <entry key="HTML" value="75" />
+          <entry key="PLAIN_TEXT" value="831" />
+          <entry key="Python" value="16070" />
           <entry key="SQL" value="16" />
         </counts>
       </usages-collector>
@@ -383,55 +253,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMS/Explain">
+        <entry file="file://$PROJECT_DIR$/demo/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            <state relative-caret-position="162">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/Explain">
+        <entry file="file://$PROJECT_DIR$/demo/my/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="702">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logintest/Explain">
+        <entry file="file://$PROJECT_DIR$/demo/demo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myTest/Explain">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-master/Explain">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="439">
+              <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RuoyiManagementSystem/Explain">
+        <entry file="file://$PROJECT_DIR$/demo/my/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            <state relative-caret-position="27">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/my/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/demo/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -442,8 +312,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -477,6 +347,7 @@
       <find>commit</find>
       <find>INST</find>
       <find>sql</find>
+      <find>SESSION_</find>
     </findStrings>
     <replaceStrings>
       <replace>#</replace>
@@ -486,6 +357,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ycg" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -505,16 +381,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CMS/com/test_module/login/__init__.py" />
-        <option value="$PROJECT_DIR$/CMS/com/test_module/config.py" />
-        <option value="$PROJECT_DIR$/CMS/com/test_module/common/log.py" />
-        <option value="$PROJECT_DIR$/CMS/com/test_module/login/LoginBasePage.py" />
-        <option value="$PROJECT_DIR$/CMS/com/test_module/common/test.py" />
-        <option value="$PROJECT_DIR$/logintest/com/run_all_case.py" />
-        <option value="$PROJECT_DIR$/logintest/com/send_email.py" />
-        <option value="$PROJECT_DIR$/myProject/com/126_email/Login/LoginPage.py" />
-        <option value="$PROJECT_DIR$/myProject/com/126_email/config/__init__.py" />
-        <option value="$PROJECT_DIR$/myProject/com/126_email/constant/__init__.py" />
         <option value="$PROJECT_DIR$/myProject/com/126_email/data/__init__.py" />
         <option value="$PROJECT_DIR$/myProject/com/126_email/encapsulation/__init__.py" />
         <option value="$PROJECT_DIR$/myProject/com/126_email/error_picture/__init__.py" />
@@ -544,10 +410,6 @@
         <option value="$PROJECT_DIR$/djangoProject/djangoProject/urls.py" />
         <option value="$PROJECT_DIR$/djangoProject/polls/views.py" />
         <option value="$PROJECT_DIR$/testDjango/manage.py" />
-        <option value="$PROJECT_DIR$/demo/myapp/views.py" />
-        <option value="$PROJECT_DIR$/demo/myapp/models.py" />
-        <option value="$PROJECT_DIR$/demo/demo/urls.py" />
-        <option value="$PROJECT_DIR$/demo/demo/settings.py" />
         <option value="$PROJECT_DIR$/demo/demo/__init__.py" />
         <option value="$PROJECT_DIR$/demo/templates/index.html" />
         <option value="$PROJECT_DIR$/CMS/Explain" />
@@ -556,6 +418,20 @@
         <option value="$PROJECT_DIR$/myTest/Explain" />
         <option value="$PROJECT_DIR$/test-master/Explain" />
         <option value="$PROJECT_DIR$/RuoyiManagementSystem/Explain" />
+        <option value="$PROJECT_DIR$/demo/templates/log_in.html" />
+        <option value="$PROJECT_DIR$/demo/templates/test.html" />
+        <option value="$PROJECT_DIR$/demo/myapp/views.py" />
+        <option value="$PROJECT_DIR$/demo/myapp/models.py" />
+        <option value="$PROJECT_DIR$/demo/myapp/admin.py" />
+        <option value="$PROJECT_DIR$/demo/myapp/migrations/0002_auto_20190410_2334.py" />
+        <option value="$PROJECT_DIR$/demo/demo/settings.py" />
+        <option value="$PROJECT_DIR$/demo/demo/urls.py" />
+        <option value="$PROJECT_DIR$/demo/myWeb/migrations/0002_auto_20190410_2334.py" />
+        <option value="$PROJECT_DIR$/demo/myWeb/admin.py" />
+        <option value="$PROJECT_DIR$/demo/myWeb/models.py" />
+        <option value="$PROJECT_DIR$/demo/myWeb/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/demo/my_web/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/demo/my/models.py" />
       </list>
     </option>
   </component>
@@ -595,6 +471,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -617,13 +494,13 @@
               <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyProject" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyProject" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
               <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -632,48 +509,14 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="test_main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="test_main" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="test_main" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-              <item name="login_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="RuoyiManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="test_main" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-              <item name="open_browser" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -709,7 +552,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.connect_mysql">
+  <component name="RunManager" selected="Python.admin">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -729,26 +572,6 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="Test: " type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
-      <module name="demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -763,6 +586,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/demo/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo/myWeb" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/myWeb/admin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -885,19 +730,19 @@
     </configuration>
     <list>
       <item itemvalue="Django server.demo" />
-      <item itemvalue="Django tests.Test: " />
       <item itemvalue="Python.manage" />
       <item itemvalue="Python.assert_info" />
       <item itemvalue="Python.__init__" />
       <item itemvalue="Python.connect_mysql" />
+      <item itemvalue="Python.admin" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.connect_mysql" />
+        <item itemvalue="Python.admin" />
         <item itemvalue="Python.manage" />
+        <item itemvalue="Python.connect_mysql" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.assert_info" />
-        <item itemvalue="Django tests.Test: " />
       </list>
     </recent_temporary>
   </component>
@@ -1241,7 +1086,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554479928028</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="optimization">
+      <created>1554525993423</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1554525993423</updated>
+    </task>
+    <task id="LOCAL-00049" summary="数据库配置">
+      <created>1554529473347</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1554529473347</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1276,7 +1135,7 @@
       <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
     </history-entry>
   </component>
-  <component name="TodoView" selected-index="3">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -1287,28 +1146,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.1663113" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.17270789" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5016611" side_tool="true" weight="0.16151386" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.48614073" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.65724945" weight="0.33779263" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.48720682" weight="0.34671125" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.48400852" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6567164" weight="0.33779263" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.48667377" weight="0.34671125" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4914712" weight="0.26309922" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.5079957" weight="0.39130434" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48027718" weight="0.37235227" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.48507464" weight="0.32887402" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5138593" side_tool="true" visible="true" weight="0.37235227" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.48933902" weight="0.26309922" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.50479746" weight="0.39130434" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.46695095" visible="true" weight="0.22185062" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.48134327" weight="0.32887402" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.53304905" side_tool="true" visible="true" weight="0.22185062" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="13" sideWeight="0.49520257" weight="0.32998884" />
+      <window_info anchor="bottom" id="Database Changes" order="13" sideWeight="0.49307036" weight="0.32998884" />
       <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49946696" weight="0.32998884" />
       <window_info anchor="bottom" id="Messages" order="15" />
-      <window_info anchor="bottom" id="File Transfer" order="16" sideWeight="0.4946695" weight="0.37235227" />
+      <window_info anchor="bottom" id="File Transfer" order="16" sideWeight="0.48454157" weight="0.37235227" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1394,7 +1252,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增修改信息用例" />
     <MESSAGE value="优化ModifyBasePage" />
     <MESSAGE value="新增ShoppingBasePage" />
     <MESSAGE value="优化ShoppingBasePage" />
@@ -1402,7 +1259,6 @@
     <MESSAGE value="修改'CommonBasePage'大小写" />
     <MESSAGE value="切换python37版本" />
     <MESSAGE value="python+selenium+unittest+HtmlTestRunner生成测试报告demo" />
-    <MESSAGE value="optimization" />
     <MESSAGE value="python+selenium+unittest+HtmlTestRunner生成测试报告demo完善" />
     <MESSAGE value="python+selenium+unittest+HtmlTestRunner生成测试报告demo补充" />
     <MESSAGE value="python+appium+模拟器demo" />
@@ -1419,7 +1275,9 @@
     <MESSAGE value="django项目-linux" />
     <MESSAGE value="增加配置文件requirements.txt" />
     <MESSAGE value="index" />
-    <option name="LAST_COMMIT_MESSAGE" value="index" />
+    <MESSAGE value="optimization" />
+    <MESSAGE value="数据库配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据库配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1463,77 +1321,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test-master/webdriver_api/web_page/frame.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-master/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-master/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-master/.idea/mytestpro-master.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-master/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-master/mail_app/report/image/001.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/demo/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-master/HTMLTestRunner3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-master/mail_app/report/2016_11_15_20_00_03result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-master/run_all_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="43" column="71" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-master/mail_app/test_case/login_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-master/mail_app/test_case/page_obj/login_page.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-master/mail_app/test_case/page_obj/mail_page.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-master/mail_app/test_case/page_obj/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-master/mail_app/test_case/model/myunit.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1693,6 +1480,95 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/db.sqlite3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/my/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/demo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/myWeb/migrations/0002_auto_20190413_1952.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/myWeb/migrations/0002_auto_20190410_2334.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/myWeb/migrations/0002_auto_20190413_2007.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/my_web/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="38" column="91" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/my/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/my/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/demo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/my/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/my/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
