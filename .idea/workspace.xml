@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e0116804-7ed9-41b9-8d9e-87e73b5d3f62" name="Default" comment="发布会">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/my/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/my/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/templates/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/zope/browserpage/tests/test_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/zope/browserpage/tests/test_page.py" afterDir="false" />
     </list>
     <ignored path="pyProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -155,18 +152,18 @@
     <session id="949104155">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="103" />
+          <entry key="project.closed" value="105" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.166" value="1" />
           <entry key="project.open.time.2" value="11" />
           <entry key="project.open.time.3" value="35" />
-          <entry key="project.open.time.4" value="35" />
+          <entry key="project.open.time.4" value="36" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="9" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="105" />
+          <entry key="project.opened" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -255,8 +252,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/my/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
+            <state relative-caret-position="162">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -264,8 +261,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/demo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="53" column="2" selection-start-line="53" selection-end-line="53" selection-end-column="2" />
+            <state relative-caret-position="1404">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -279,7 +276,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/my/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -288,7 +285,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/demo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
@@ -463,7 +460,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -505,6 +501,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -748,13 +745,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537709001265</updated>
-    </task>
-    <task id="LOCAL-00002" summary="修改描述及修改人">
-      <created>1542438309313</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1542438309313</updated>
     </task>
     <task id="LOCAL-00003" summary="open()方法:增加最大化浏览器方法">
       <created>1542504624064</created>
@@ -1092,7 +1082,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555166367123</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="发布会">
+      <created>1555246776491</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1555246776491</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1138,9 +1135,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.17430703" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.17590618" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5016611" side_tool="true" weight="0.16151386" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
@@ -1493,13 +1489,6 @@
     <entry file="file://$PROJECT_DIR$/demo/my/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python37/Lib/site-packages/django/db/models/query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -1507,17 +1496,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/demo/settings.py">
+    <entry file="file://$PROJECT_DIR$/demo/templates/event.html" />
+    <entry file="file://$PROJECT_DIR$/demo/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="53" column="2" selection-start-line="53" selection-end-line="53" selection-end-column="2" />
+        <state relative-caret-position="162">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/my/admin.py">
+    <entry file="file://$PROJECT_DIR$/demo/my/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="162">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/demo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
@@ -1528,24 +1525,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/templates/event.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/my/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/demo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/my/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
