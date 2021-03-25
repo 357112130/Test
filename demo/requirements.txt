@@ -37,7 +37,7 @@ python-gitlab==1.8.0
 pytz==2018.9
 pywin32==224
 pywinauto==0.6.3
-PyYAML==3.13
+PyYAML==5.4
 requests==2.20.1
 selenium==3.3.1
 six==1.12.0
