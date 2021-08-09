@@ -35,7 +35,7 @@ pytesseract==0.2.0
 python-dateutil==2.8.0
 python-gitlab==1.8.0
 pytz==2018.9
-pywin32==224
+pywin32==301
 pywinauto==0.6.3
 PyYAML==3.13
 requests==2.20.1
