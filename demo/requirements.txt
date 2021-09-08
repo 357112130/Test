@@ -23,7 +23,7 @@ MarkupSafe==1.1.1
 nose==1.3.7
 numpy==1.16.2
 opencv-contrib-python==3.4.2.17
-Pillow==5.4.1
+Pillow==8.3.2
 Pillow-PIL==0.1.dev0
 poco==0.96.5
 pyaml==16.12.2
