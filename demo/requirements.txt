@@ -28,7 +28,7 @@ Pillow-PIL==0.1.dev0
 poco==0.96.5
 pyaml==16.12.2
 PyGithub==1.39
-PyJWT==1.7.1
+PyJWT==2.4.0
 PyMySQL==0.9.3
 pypiwin32==223
 pytesseract==0.2.0
